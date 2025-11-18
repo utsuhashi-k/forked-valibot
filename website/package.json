@@ -15,7 +15,7 @@
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "qwik check-client src dist && vite build -c adapters/static/vite.config.ts",
-    "build.static": "pnpm run build.client && pnpm run build.server",
+    "build.static": "pnpm --filter valibot run build && pnpm --filter zod-to-valibot run build && pnpm run build.client && pnpm run build.server",
     "build.types": "tsc --incremental --noEmit",
     "contributors": "tsm ./scripts/contributors.ts",
     "deploy": "vercel deploy",
