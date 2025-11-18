@@ -1,0 +1,19 @@
+import{a as l,s,t as e,q as i}from"./q-dgQLQ9M1.js";import{u as r}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const a={TWrapped:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"BaseSchema",href:"../BaseSchema/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]},{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]}]}},TDefault:{modifier:"extends",type:{type:"custom",name:"DefaultAsync",href:"../DefaultAsync/",generics:[{type:"custom",name:"TWrapped"},"null"]}},BaseSchemaAsync:{type:{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:[{type:"union",options:[{type:"custom",name:"InferInput",href:"../InferInput/",generics:[{type:"custom",name:"TWrapped"}]},"null"]},{type:"custom",name:"InferNullableOutput",href:"../InferNullableOutput/",generics:[{type:"custom",name:"TWrapped"},{type:"custom",name:"TDefault"}]},{type:"custom",name:"InferIssue",href:"../InferIssue/",generics:[{type:"custom",name:"TWrapped"}]}]}},type:{type:{type:"string",value:"nullable"}},reference:{type:{type:"union",options:[{type:"custom",modifier:"typeof",name:"nullable",href:"../nullable/"},{type:"custom",modifier:"typeof",name:"nullableAsync",href:"../nullableAsync/"}]}},expects:{type:{type:"template",parts:[{type:"string",value:"("},{type:"custom",name:"TWrapped",indexes:[{type:"string",value:"expects"}]},{type:"string",value:" | null)"}]}},wrapped:{type:{type:"custom",name:"TWrapped"}},default:{type:{type:"custom",name:"TDefault"}}},f=[{text:"NullableSchemaAsync",id:"nullableschemaasync",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],b={title:"NullableSchemaAsync",meta:[{name:"description",content:"Nullable schema async interface."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},g={title:"NullableSchemaAsync",description:"Nullable schema async interface.",contributors:["fabian-hiller"]};function p(c){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...r(),...c.components};return e(i,{children:[e(n.h1,{id:"nullableschemaasync",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#nullableschemaasync",children:e(n.span,{class:"icon icon-link"})}),"NullableSchemaAsync"]}),`
+`,e(n.p,{children:"Nullable schema async interface."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TWrapped"})," ",e(t,{...a.TWrapped})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TDefault"})," ",e(t,{...a.TDefault})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"NullableSchemaAsync"})," ",e(t,{...a.BaseSchemaAsync}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"type"})," ",e(t,{...a.type})]}),`
+`,e(n.li,{children:[e(n.code,{children:"reference"})," ",e(t,{...a.reference})]}),`
+`,e(n.li,{children:[e(n.code,{children:"expects"})," ",e(t,{...a.expects})]}),`
+`,e(n.li,{children:[e(n.code,{children:"wrapped"})," ",e(t,{...a.wrapped})]}),`
+`,e(n.li,{children:[e(n.code,{children:"default"})," ",e(t,{...a.default})]}),`
+`]}),`
+`]}),`
+`]})]})}const x=(c={})=>{const n=l(s,{children:l(p,c,3,null)},3,"q2nK0jte");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{x as default,g as frontmatter,b as head,f as headings};

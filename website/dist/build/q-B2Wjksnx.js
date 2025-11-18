@@ -1,0 +1,16 @@
+import{a,s as t,t as e,q as c}from"./q-dgQLQ9M1.js";import{u as o}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as s}from"./q-C3XvAjir.js";const i={TSchema:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"BaseSchema",href:"../BaseSchema/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]},{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]}]}},error:{type:"unknown"},result:{type:"boolean"}},f=[{text:"isValiError",id:"isvalierror",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Returns",id:"returns",level:2}],y={title:"isValiError",meta:[{name:"description",content:"A type guard to check if an error is a ValiError."}],styles:[],links:[],scripts:[],frontmatter:{source:"/utils/isValiError/isValiError.ts",contributors:["fabian-hiller"]}},g={title:"isValiError",description:"A type guard to check if an error is a ValiError.",source:"/utils/isValiError/isValiError.ts",contributors:["fabian-hiller"]};function l(r){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...o(),...r.components};return e(c,{children:[e(n.h1,{id:"isvalierror",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#isvalierror",children:e(n.span,{class:"icon icon-link"})}),"isValiError"]}),`
+`,e(n.p,{children:"A type guard to check if an error is a ValiError."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," result ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token generic-function",children:[e(n.span,{class:"token function",children:"isValiError"}),e(n.span,{class:"token generic class-name",children:[e(n.span,{class:"token operator",children:"<"}),e(n.span,{class:"token maybe-class-name",children:"TSchema"}),e(n.span,{class:"token operator",children:">"})]})]}),e(n.span,{class:"token punctuation",children:"("}),"error",e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TSchema"})," ",e(s,{...i.TSchema})]}),`
+`]}),`
+`,e(n.h2,{id:"parameters",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:e(n.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"error"})," ",e(s,{...i.error})]}),`
+`]}),`
+`,e(n.h2,{id:"returns",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:e(n.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"result"})," ",e(s,{...i.result})]}),`
+`]})]})}const x=(r={})=>{const n=a(t,{children:a(l,r,3,null)},3,"C2Y3HJmu");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{x as default,g as frontmatter,y as head,f as headings};

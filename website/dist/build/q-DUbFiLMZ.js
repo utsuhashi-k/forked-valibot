@@ -1,0 +1,21 @@
+import{a as r,s as c,t as e,q as p}from"./q-dgQLQ9M1.js";import{u as a}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as n}from"./q-C3XvAjir.js";const s={TItems:{modifier:"extends",type:{type:"custom",name:"TupleItems",href:"../TupleItems/"}},TRest:{modifier:"extends",type:{type:"custom",name:"BaseSchema",href:"../BaseSchema/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]}},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"TupleWithRestIssue",href:"../TupleWithRestIssue/"}]},"undefined"]}},BaseSchema:{modifier:"extends",type:{type:"custom",name:"BaseSchema",href:"../BaseSchema/",generics:[{type:"tuple",items:[{type:"custom",spread:!0,name:"InferTupleInput",href:"../InferTupleInput/",generics:[{type:"custom",name:"TItems"}]},{type:"array",spread:!0,item:{type:"custom",name:"InferInput",href:"../InferInput/",generics:[{type:"custom",name:"TRest"}]}}]},{type:"tuple",items:[{type:"custom",spread:!0,name:"InferTupleOutput",href:"../InferTupleOutput/",generics:[{type:"custom",name:"TItems"}]},{type:"array",spread:!0,item:{type:"custom",name:"InferOutput",href:"../InferOutput/",generics:[{type:"custom",name:"TRest"}]}}]},{type:"union",options:[{type:"custom",name:"TupleWithRestIssue",href:"../TupleWithRestIssue/"},{type:"custom",name:"InferTupleIssue",href:"../InferTupleIssue/",generics:[{type:"custom",name:"TItems"}]},{type:"custom",name:"InferIssue",href:"../InferIssue/",generics:[{type:"custom",name:"TRest"}]}]}]}},type:{type:{type:"string",value:"tuple_with_rest"}},reference:{type:{type:"custom",modifier:"typeof",name:"tupleWithRest",href:"../tupleWithRest/"}},expects:{type:{type:"string",value:"Array"}},items:{type:{type:"custom",name:"TItems"}},rest:{type:{type:"custom",name:"TRest"}},message:{type:{type:"custom",name:"TMessage"}}},y=[{text:"TupleWithRestSchema",id:"tuplewithrestschema",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],T={title:"TupleWithRestSchema",meta:[{name:"description",content:"Tuple with rest schema interface."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller","mehm8128"]}},I={title:"TupleWithRestSchema",description:"Tuple with rest schema interface.",contributors:["fabian-hiller","mehm8128"]};function m(i){const t={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...a(),...i.components};return e(p,{children:[e(t.h1,{id:"tuplewithrestschema",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#tuplewithrestschema",children:e(t.span,{class:"icon icon-link"})}),"TupleWithRestSchema"]}),`
+`,e(t.p,{children:"Tuple with rest schema interface."}),`
+`,e(t.h2,{id:"generics",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(t.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"TItems"})," ",e(n,{...s.TItems})]}),`
+`,e(t.li,{children:[e(t.code,{children:"TRest"})," ",e(n,{...s.TRest})]}),`
+`,e(t.li,{children:[e(t.code,{children:"TMessage"})," ",e(n,{...s.TMessage})]}),`
+`]}),`
+`,e(t.h2,{id:"definition",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(t.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"TupleWithRestSchema"})," ",e(n,{...s.BaseSchema}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"type"})," ",e(n,{...s.type})]}),`
+`,e(t.li,{children:[e(t.code,{children:"reference"})," ",e(n,{...s.reference})]}),`
+`,e(t.li,{children:[e(t.code,{children:"expects"})," ",e(n,{...s.expects})]}),`
+`,e(t.li,{children:[e(t.code,{children:"items"})," ",e(n,{...s.items})]}),`
+`,e(t.li,{children:[e(t.code,{children:"rest"})," ",e(n,{...s.rest})]}),`
+`,e(t.li,{children:[e(t.code,{children:"message"})," ",e(n,{...s.message})]}),`
+`]}),`
+`]}),`
+`]})]})}const g=(i={})=>{const t=r(c,{children:r(m,i,3,null)},3,"0oN7wbuU");return typeof MDXLayout=="function"?e(MDXLayout,{children:t}):t};export{g as default,I as frontmatter,T as head,y as headings};

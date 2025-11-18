@@ -1,0 +1,21 @@
+import{a as c,s as r,t as e,q as o}from"./q-dgQLQ9M1.js";import{u as a}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as n}from"./q-C3XvAjir.js";const i={TEntries:{modifier:"extends",type:{type:"custom",name:"ObjectEntries",href:"../ObjectEntries/"}},TRest:{modifier:"extends",type:{type:"custom",name:"BaseSchema",href:"../BaseSchema/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]}},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"ObjectWithRestIssue",href:"../ObjectWithRestIssue/"}]},"undefined"]}},BaseSchema:{modifier:"extends",type:{type:"custom",name:"BaseSchema",href:"../BaseSchema/",generics:[{type:"intersect",options:[{type:"custom",name:"InferObjectInput",href:"../InferObjectInput/",generics:[{type:"custom",name:"TEntries"}]},{type:"object",entries:[{key:{name:"key",type:"string"},value:{type:"custom",name:"InferInput",href:"../InferInput/",generics:[{type:"custom",name:"TRest"}]}}]}]},{type:"intersect",options:[{type:"custom",name:"InferObjectOutput",href:"../InferObjectOutput/",generics:[{type:"custom",name:"TEntries"}]},{type:"object",entries:[{key:{name:"key",type:"string"},value:{type:"custom",name:"InferInput",href:"../InferInput/",generics:[{type:"custom",name:"TRest"}]}}]}]},{type:"union",options:[{type:"custom",name:"ObjectWithRestIssue",href:"../ObjectWithRestIssue/"},{type:"custom",name:"InferObjectIssue",href:"../InferObjectIssue/",generics:[{type:"custom",name:"TEntries"}]}]}]}},type:{type:{type:"string",value:"object_with_rest"}},reference:{type:{type:"custom",modifier:"typeof",name:"objectWithRest",href:"../objectWithRest/"}},expects:{type:{type:"string",value:"Object"}},entries:{type:{type:"custom",name:"TEntries"}},rest:{type:{type:"custom",name:"TRest"}},message:{type:{type:"custom",name:"TMessage"}}},y=[{text:"ObjectWithRestSchema",id:"objectwithrestschema",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],b={title:"ObjectWithRestSchema",meta:[{name:"description",content:"Object with rest schema interface."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller","kazizi55"]}},j={title:"ObjectWithRestSchema",description:"Object with rest schema interface.",contributors:["fabian-hiller","kazizi55"]};function h(s){const t={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...a(),...s.components};return e(o,{children:[e(t.h1,{id:"objectwithrestschema",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#objectwithrestschema",children:e(t.span,{class:"icon icon-link"})}),"ObjectWithRestSchema"]}),`
+`,e(t.p,{children:"Object with rest schema interface."}),`
+`,e(t.h2,{id:"generics",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(t.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"TEntries"})," ",e(n,{...i.TEntries})]}),`
+`,e(t.li,{children:[e(t.code,{children:"TRest"})," ",e(n,{...i.TRest})]}),`
+`,e(t.li,{children:[e(t.code,{children:"TMessage"})," ",e(n,{...i.TMessage})]}),`
+`]}),`
+`,e(t.h2,{id:"definition",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(t.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"ObjectWithRestSchema"})," ",e(n,{...i.BaseSchema}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"type"})," ",e(n,{...i.type})]}),`
+`,e(t.li,{children:[e(t.code,{children:"reference"})," ",e(n,{...i.reference})]}),`
+`,e(t.li,{children:[e(t.code,{children:"expects"})," ",e(n,{...i.expects})]}),`
+`,e(t.li,{children:[e(t.code,{children:"entries"})," ",e(n,{...i.entries})]}),`
+`,e(t.li,{children:[e(t.code,{children:"rest"})," ",e(n,{...i.rest})]}),`
+`,e(t.li,{children:[e(t.code,{children:"message"})," ",e(n,{...i.message})]}),`
+`]}),`
+`]}),`
+`]})]})}const g=(s={})=>{const t=c(r,{children:c(h,s,3,null)},3,"-cOCMtgQ");return typeof MDXLayout=="function"?e(MDXLayout,{children:t}):t};export{g as default,j as frontmatter,b as head,y as headings};

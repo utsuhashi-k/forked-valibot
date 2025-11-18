@@ -1,0 +1,10 @@
+import{a as t,s as o,t as e,q as c}from"./q-dgQLQ9M1.js";import{u as s}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as i}from"./q-C3XvAjir.js";const a={TInput:{modifier:"extends",type:{type:"custom",name:"ArrayInput",href:"../ArrayInput/"}},ArrayRequirementAsync:{type:{type:"function",params:[{name:"item",type:{type:"custom",name:"TInput",indexes:["number"]}},{name:"index",type:"number"},{name:"array",type:{type:"custom",name:"TInput"}}],return:{type:"custom",name:"MaybePromise",href:"../MaybePromise/",generics:["boolean"]}}}},f=[{text:"ArrayRequirementAsync",id:"arrayrequirementasync",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],A={title:"ArrayRequirementAsync",meta:[{name:"description",content:"Array requirement async type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["EltonLobo07"]}},q={title:"ArrayRequirementAsync",description:"Array requirement async type.",contributors:["EltonLobo07"]};function d(r){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...s(),...r.components};return e(c,{children:[e(n.h1,{id:"arrayrequirementasync",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#arrayrequirementasync",children:e(n.span,{class:"icon icon-link"})}),"ArrayRequirementAsync"]}),`
+`,e(n.p,{children:"Array requirement async type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(i,{...a.TInput})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"ArrayRequirementAsync"})," ",e(i,{...a.ArrayRequirementAsync})]}),`
+`]})]})}const b=(r={})=>{const n=t(o,{children:t(d,r,3,null)},3,"n9QD-uYr");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{b as default,q as frontmatter,A as head,f as headings};

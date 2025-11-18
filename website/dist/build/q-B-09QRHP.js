@@ -1,0 +1,10 @@
+import{a as i,s as d,t as e,q as s}from"./q-dgQLQ9M1.js";import{u as l}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as r}from"./q-C3XvAjir.js";const a={TOutput:{modifier:"extends",type:"any"},StandardResult:{type:{type:"union",options:[{type:"custom",name:"StandardSuccessResult",href:"../StandardSuccessResult/",generics:[{type:"custom",name:"TOutput"}]},{type:"custom",name:"StandardFailureResult",href:"../StandardFailureResult/"}]}}},S=[{text:"StandardResult",id:"standardresult",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],y={title:"StandardResult",meta:[{name:"description",content:"The result interface of the validate function."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},R={title:"StandardResult",description:"The result interface of the validate function.",contributors:["fabian-hiller"]};function o(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...l(),...t.components};return e(s,{children:[e(n.h1,{id:"standardresult",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#standardresult",children:e(n.span,{class:"icon icon-link"})}),"StandardResult"]}),`
+`,e(n.p,{children:"The result interface of the validate function."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TOutput"})," ",e(r,{...a.TOutput})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"StandardResult"})," ",e(r,{...a.StandardResult})]}),`
+`]})]})}const x=(t={})=>{const n=i(d,{children:i(o,t,3,null)},3,"7qZ7l1SC");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{x as default,R as frontmatter,y as head,S as headings};

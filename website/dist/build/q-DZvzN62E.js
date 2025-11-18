@@ -1,0 +1,41 @@
+import{a as c,s as r,t as e,q as o}from"./q-dgQLQ9M1.js";import{u as l}from"./q-CyNgVds-.js";import{a}from"./q-B70ZX59b.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as i}from"./q-C3XvAjir.js";const t={TInput:{modifier:"extends",type:{type:"custom",name:"EntriesInput",href:"../EntriesInput/"}},TRequirement:{modifier:"extends",type:"number"},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"MinEntriesIssue",href:"../MinEntriesIssue/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TRequirement"}]}]},"undefined"]}},requirement:{type:{type:"custom",name:"TRequirement"}},message:{type:{type:"custom",name:"TMessage"}},Action:{type:{type:"custom",name:"MinEntriesAction",href:"../MinEntriesAction/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TRequirement"},{type:"custom",name:"TMessage"}]}}},x=[{text:"minEntries",id:"minentries",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Explanation",id:"explanation",level:3},{text:"Returns",id:"returns",level:2},{text:"Examples",id:"examples",level:2},{text:"Minimum object entries",id:"minimum-object-entries",level:3},{text:"Related",id:"related",level:2},{text:"Schemas",id:"schemas",level:3},{text:"Methods",id:"methods",level:3},{text:"Utils",id:"utils",level:3}],y={title:"minEntries",meta:[{name:"description",content:"Creates a min entries validation action."}],styles:[],links:[],scripts:[],frontmatter:{source:"/actions/minEntries/minEntries.ts",contributors:["EltonLobo07","fabian-hiller","muningis"]}},g={title:"minEntries",description:"Creates a min entries validation action.",source:"/actions/minEntries/minEntries.ts",contributors:["EltonLobo07","fabian-hiller","muningis"]};function d(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...l(),...s.components};return e(o,{children:[e(n.h1,{id:"minentries",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#minentries",children:e(n.span,{class:"icon icon-link"})}),"minEntries"]}),`
+`,e(n.p,{children:"Creates a min entries validation action."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"Action"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token generic-function",children:[e(n.span,{class:"token function",children:"minEntries"}),e(n.span,{class:"token generic class-name",children:[e(n.span,{class:"token operator",children:"<"}),e(n.span,{class:"token maybe-class-name",children:"TInput"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token maybe-class-name",children:"TRequirement"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token maybe-class-name",children:"TMessage"}),e(n.span,{class:"token operator",children:">"})]})]}),e(n.span,{class:"token punctuation",children:"("}),`
+  requirement`,e(n.span,{class:"token punctuation",children:","}),`
+  message
+`,e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(i,{...t.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TRequirement"})," ",e(i,{...t.TRequirement})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TMessage"})," ",e(i,{...t.TMessage})]}),`
+`]}),`
+`,e(n.h2,{id:"parameters",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:e(n.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"requirement"})," ",e(i,{...t.requirement})]}),`
+`,e(n.li,{children:[e(n.code,{children:"message"})," ",e(i,{...t.message})]}),`
+`]}),`
+`,e(n.h3,{id:"explanation",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#explanation",children:e(n.span,{class:"icon icon-link"})}),"Explanation"]}),`
+`,e(n.p,{children:["With ",e(n.code,{children:"minEntries"})," you can validate the number of entries of an object. If the input does not match the ",e(n.code,{children:"requirement"}),", you can use ",e(n.code,{children:"message"})," to customize the error message."]}),`
+`,e(n.h2,{id:"returns",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:e(n.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"Action"})," ",e(i,{...t.Action})]}),`
+`]}),`
+`,e(n.h2,{id:"examples",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#examples",children:e(n.span,{class:"icon icon-link"})}),"Examples"]}),`
+`,e(n.p,{children:["The following examples show how ",e(n.code,{children:"minEntries"})," can be used."]}),`
+`,e(n.h3,{id:"minimum-object-entries",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#minimum-object-entries",children:e(n.span,{class:"icon icon-link"})}),"Minimum object entries"]}),`
+`,e(n.p,{children:"Schema to validate an object with a minimum of 5 entries."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"MinEntriesSchema"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"pipe"}),e(n.span,{class:"token punctuation",children:"("}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"record"}),e(n.span,{class:"token punctuation",children:"("}),"v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"string"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"number"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"minEntries"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token number",children:"5"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token string",children:"'The object should have at least 5 entries.'"}),e(n.span,{class:"token punctuation",children:")"}),`
+`,e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"related",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#related",children:e(n.span,{class:"icon icon-link"})}),"Related"]}),`
+`,e(n.p,{children:["The following APIs can be combined with ",e(n.code,{children:"minEntries"}),"."]}),`
+`,e(n.h3,{id:"schemas",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#schemas",children:e(n.span,{class:"icon icon-link"})}),"Schemas"]}),`
+`,e(a,{items:["looseObject","object","objectWithRest","record","strictObject","variant"]}),`
+`,e(n.h3,{id:"methods",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#methods",children:e(n.span,{class:"icon icon-link"})}),"Methods"]}),`
+`,e(a,{items:["pipe"]}),`
+`,e(n.h3,{id:"utils",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#utils",children:e(n.span,{class:"icon icon-link"})}),"Utils"]}),`
+`,e(a,{items:["isOfKind","isOfType"]})]})}const E=(s={})=>{const n=c(r,{children:c(d,s,3,null)},3,"5uXetLsU");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{E as default,g as frontmatter,y as head,x as headings};

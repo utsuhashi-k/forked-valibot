@@ -1,0 +1,41 @@
+import{a as c,s as l,t as e,q as o}from"./q-dgQLQ9M1.js";import{u as r}from"./q-CyNgVds-.js";import{a}from"./q-B70ZX59b.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const i={TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"BlobIssue",href:"../BlobIssue/"}]},"undefined"]}},message:{type:{type:"custom",name:"TMessage"}},Schema:{type:{type:"custom",name:"BlobSchema",href:"../BlobSchema/",generics:[{type:"custom",name:"TMessage"}]}}},g=[{text:"blob",id:"blob",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Explanation",id:"explanation",level:3},{text:"Returns",id:"returns",level:2},{text:"Examples",id:"examples",level:2},{text:"Image schema",id:"image-schema",level:3},{text:"Related",id:"related",level:2},{text:"Schemas",id:"schemas",level:3},{text:"Methods",id:"methods",level:3},{text:"Actions",id:"actions",level:3},{text:"Utils",id:"utils",level:3}],x={title:"blob",meta:[{name:"description",content:"Creates a blob schema."}],styles:[],links:[],scripts:[],frontmatter:{source:"/schemas/blob/blob.ts",contributors:["fabian-hiller"]}},y={title:"blob",description:"Creates a blob schema.",source:"/schemas/blob/blob.ts",contributors:["fabian-hiller"]};function d(s){const n={a:"a",blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...r(),...s.components};return e(o,{children:[e(n.h1,{id:"blob",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#blob",children:e(n.span,{class:"icon icon-link"})}),"blob"]}),`
+`,e(n.p,{children:"Creates a blob schema."}),`
+`,e(n.blockquote,{children:[`
+`,e(n.p,{children:["The ",e(n.code,{children:"Blob"})," class is not available by default in Node.js v16 and below."]}),`
+`]}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"Schema"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token generic-function",children:[e(n.span,{class:"token function",children:"blob"}),e(n.span,{class:"token generic class-name",children:[e(n.span,{class:"token operator",children:"<"}),e(n.span,{class:"token maybe-class-name",children:"TMessage"}),e(n.span,{class:"token operator",children:">"})]})]}),e(n.span,{class:"token punctuation",children:"("}),"message",e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TMessage"})," ",e(t,{...i.TMessage})]}),`
+`]}),`
+`,e(n.h2,{id:"parameters",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:e(n.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"message"})," ",e(t,{...i.message})]}),`
+`]}),`
+`,e(n.h3,{id:"explanation",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#explanation",children:e(n.span,{class:"icon icon-link"})}),"Explanation"]}),`
+`,e(n.p,{children:["With ",e(n.code,{children:"blob"})," you can validate the data type of the input. If the input is not a blob, you can use ",e(n.code,{children:"message"})," to customize the error message."]}),`
+`,e(n.h2,{id:"returns",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:e(n.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"Schema"})," ",e(t,{...i.Schema})]}),`
+`]}),`
+`,e(n.h2,{id:"examples",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#examples",children:e(n.span,{class:"icon icon-link"})}),"Examples"]}),`
+`,e(n.p,{children:["The following examples show how ",e(n.code,{children:"blob"})," can be used."]}),`
+`,e(n.h3,{id:"image-schema",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#image-schema",children:e(n.span,{class:"icon icon-link"})}),"Image schema"]}),`
+`,e(n.p,{children:"Schema to validate an image."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"ImageSchema"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"pipe"}),e(n.span,{class:"token punctuation",children:"("}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"blob"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token string",children:"'Please select an image file.'"}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"mimeType"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token punctuation",children:"["}),e(n.span,{class:"token string",children:"'image/jpeg'"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token string",children:"'image/png'"}),e(n.span,{class:"token punctuation",children:"]"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token string",children:"'Please select a JPEG or PNG file.'"}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"maxSize"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token number",children:"1024"})," ",e(n.span,{class:"token operator",children:"*"})," ",e(n.span,{class:"token number",children:"1024"})," ",e(n.span,{class:"token operator",children:"*"})," ",e(n.span,{class:"token number",children:"10"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token string",children:"'Please select a file smaller than 10 MB.'"}),e(n.span,{class:"token punctuation",children:")"}),`
+`,e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"related",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#related",children:e(n.span,{class:"icon icon-link"})}),"Related"]}),`
+`,e(n.p,{children:["The following APIs can be combined with ",e(n.code,{children:"blob"}),"."]}),`
+`,e(n.h3,{id:"schemas",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#schemas",children:e(n.span,{class:"icon icon-link"})}),"Schemas"]}),`
+`,e(a,{items:["array","exactOptional","intersect","lazy","looseObject","looseTuple","map","nonNullable","nonNullish","nonOptional","nullable","nullish","object","objectWithRest","optional","record","set","strictObject","strictTuple","tuple","tupleWithRest","undefinedable","union"]}),`
+`,e(n.h3,{id:"methods",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#methods",children:e(n.span,{class:"icon icon-link"})}),"Methods"]}),`
+`,e(a,{items:["assert","config","fallback","getDefault","getDefaults","getFallback","getFallbacks","is","message","parse","parser","pipe","safeParse","safeParser"]}),`
+`,e(n.h3,{id:"actions",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#actions",children:e(n.span,{class:"icon icon-link"})}),"Actions"]}),`
+`,e(a,{items:["check","brand","description","flavor","maxSize","metadata","mimeType","minSize","notSize","rawCheck","rawTransform","readonly","size","title","transform"]}),`
+`,e(n.h3,{id:"utils",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#utils",children:e(n.span,{class:"icon icon-link"})}),"Utils"]}),`
+`,e(a,{items:["entriesFromList","isOfKind","isOfType"]})]})}const v=(s={})=>{const n=c(l,{children:c(d,s,3,null)},3,"bElRFRx8");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{v as default,y as frontmatter,x as head,g as headings};

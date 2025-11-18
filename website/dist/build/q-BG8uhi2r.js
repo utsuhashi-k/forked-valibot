@@ -1,0 +1,19 @@
+import{a as i,s as o,t as e,q as r}from"./q-dgQLQ9M1.js";import{u as a}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const s={TEntries:{modifier:"extends",type:{type:"custom",name:"ObjectEntriesAsync",href:"../ObjectEntriesAsync/"}},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"LooseObjectIssue",href:"../LooseObjectIssue/"}]},"undefined"]}},BaseSchemaAsync:{modifier:"extends",type:{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:[{type:"intersect",options:[{type:"custom",name:"InferObjectInput",href:"../InferObjectInput/",generics:[{type:"custom",name:"TEntries"}]},{type:"object",entries:[{key:{name:"key",type:"string"},value:"unknown"}]}]},{type:"intersect",options:[{type:"custom",name:"InferObjectOutput",href:"../InferObjectOutput/",generics:[{type:"custom",name:"TEntries"}]},{type:"object",entries:[{key:{name:"key",type:"string"},value:"unknown"}]}]},{type:"union",options:[{type:"custom",name:"LooseObjectIssue",href:"../LooseObjectIssue/"},{type:"custom",name:"InferObjectIssue",href:"../InferObjectIssue/",generics:[{type:"custom",name:"TEntries"}]}]}]}},type:{type:{type:"string",value:"loose_object"}},reference:{type:{type:"union",options:[{type:"custom",modifier:"typeof",name:"looseObject",href:"../looseObject/"},{type:"custom",modifier:"typeof",name:"looseObjectAsync",href:"../looseObjectAsync/"}]}},expects:{type:{type:"string",value:"Object"}},entries:{type:{type:"custom",name:"TEntries"}},message:{type:{type:"custom",name:"TMessage"}}},f=[{text:"LooseObjectSchemaAsync",id:"looseobjectschemaasync",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],b={title:"LooseObjectSchemaAsync",meta:[{name:"description",content:"Loose object schema async interface."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller","kazizi55"]}},j={title:"LooseObjectSchemaAsync",description:"Loose object schema async interface.",contributors:["fabian-hiller","kazizi55"]};function l(c){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...a(),...c.components};return e(r,{children:[e(n.h1,{id:"looseobjectschemaasync",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#looseobjectschemaasync",children:e(n.span,{class:"icon icon-link"})}),"LooseObjectSchemaAsync"]}),`
+`,e(n.p,{children:"Loose object schema async interface."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TEntries"})," ",e(t,{...s.TEntries})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TMessage"})," ",e(t,{...s.TMessage})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"LooseObjectSchemaAsync"})," ",e(t,{...s.BaseSchemaAsync}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"type"})," ",e(t,{...s.type})]}),`
+`,e(n.li,{children:[e(n.code,{children:"reference"})," ",e(t,{...s.reference})]}),`
+`,e(n.li,{children:[e(n.code,{children:"expects"})," ",e(t,{...s.expects})]}),`
+`,e(n.li,{children:[e(n.code,{children:"entries"})," ",e(t,{...s.entries})]}),`
+`,e(n.li,{children:[e(n.code,{children:"message"})," ",e(t,{...s.message})]}),`
+`]}),`
+`]}),`
+`]})]})}const O=(c={})=>{const n=i(o,{children:i(l,c,3,null)},3,"DVt4OfgN");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{O as default,j as frontmatter,b as head,f as headings};

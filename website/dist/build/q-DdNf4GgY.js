@@ -1,0 +1,43 @@
+import{a as i,s as r,t as n,q as o}from"./q-dgQLQ9M1.js";import{u as l}from"./q-CyNgVds-.js";import{a as c}from"./q-B70ZX59b.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as a}from"./q-C3XvAjir.js";const s={TInput:{modifier:"extends",type:{type:"custom",name:"LengthInput",href:"../LengthInput/"}},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"NonEmptyIssue",href:"../NonEmptyIssue/",generics:[{type:"custom",name:"TInput"}]}]},"undefined"]}},message:{type:{type:"custom",name:"TMessage"}},Action:{type:{type:"custom",name:"NonEmptyAction",href:"../NonEmptyAction/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TMessage"}]}}},f=[{text:"nonEmpty",id:"nonempty",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Explanation",id:"explanation",level:3},{text:"Returns",id:"returns",level:2},{text:"Examples",id:"examples",level:2},{text:"String schema",id:"string-schema",level:3},{text:"Array schema",id:"array-schema",level:3},{text:"Related",id:"related",level:2},{text:"Schemas",id:"schemas",level:3},{text:"Methods",id:"methods",level:3},{text:"Utils",id:"utils",level:3}],x={title:"nonEmpty",meta:[{name:"description",content:"Creates a non-empty validation action."}],styles:[],links:[],scripts:[],frontmatter:{source:"/actions/nonEmpty/nonEmpty.ts",contributors:["fabian-hiller"]}},v={title:"nonEmpty",description:"Creates a non-empty validation action.",source:"/actions/nonEmpty/nonEmpty.ts",contributors:["fabian-hiller"]};function d(t){const e={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...l(),...t.components};return n(o,{children:[n(e.h1,{id:"nonempty",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#nonempty",children:n(e.span,{class:"icon icon-link"})}),"nonEmpty"]}),`
+`,n(e.p,{children:"Creates a non-empty validation action."}),`
+`,n(e.pre,{class:"language-ts",children:n(e.code,{class:"language-ts",children:[n(e.span,{class:"token keyword",children:"const"})," ",n(e.span,{class:"token maybe-class-name",children:"Action"})," ",n(e.span,{class:"token operator",children:"="})," v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token generic-function",children:[n(e.span,{class:"token function",children:"nonEmpty"}),n(e.span,{class:"token generic class-name",children:[n(e.span,{class:"token operator",children:"<"}),n(e.span,{class:"token maybe-class-name",children:"TInput"}),n(e.span,{class:"token punctuation",children:","})," ",n(e.span,{class:"token maybe-class-name",children:"TMessage"}),n(e.span,{class:"token operator",children:">"})]})]}),n(e.span,{class:"token punctuation",children:"("}),"requirement",n(e.span,{class:"token punctuation",children:","})," message",n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,n(e.h2,{id:"generics",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:n(e.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"TInput"})," ",n(a,{...s.TInput})]}),`
+`,n(e.li,{children:[n(e.code,{children:"TMessage"})," ",n(a,{...s.TMessage})]}),`
+`]}),`
+`,n(e.h2,{id:"parameters",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:n(e.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"message"})," ",n(a,{...s.message})]}),`
+`]}),`
+`,n(e.h3,{id:"explanation",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#explanation",children:n(e.span,{class:"icon icon-link"})}),"Explanation"]}),`
+`,n(e.p,{children:["With ",n(e.code,{children:"nonEmpty"})," you can validate that a string or array is non-empty. If the input is empty, you can use ",n(e.code,{children:"message"})," to customize the error message."]}),`
+`,n(e.h2,{id:"returns",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:n(e.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"Action"})," ",n(a,{...s.Action})]}),`
+`]}),`
+`,n(e.h2,{id:"examples",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#examples",children:n(e.span,{class:"icon icon-link"})}),"Examples"]}),`
+`,n(e.p,{children:["The following examples show how ",n(e.code,{children:"nonEmpty"})," can be used."]}),`
+`,n(e.h3,{id:"string-schema",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#string-schema",children:n(e.span,{class:"icon icon-link"})}),"String schema"]}),`
+`,n(e.p,{children:"Schema to validate that a string is non-empty."}),`
+`,n(e.pre,{class:"language-ts",children:n(e.code,{class:"language-ts",children:[n(e.span,{class:"token keyword",children:"const"})," ",n(e.span,{class:"token maybe-class-name",children:"StringSchema"})," ",n(e.span,{class:"token operator",children:"="})," v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"pipe"}),n(e.span,{class:"token punctuation",children:"("}),`
+  v`,n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"string"}),n(e.span,{class:"token punctuation",children:"("}),n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:","}),`
+  v`,n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"nonEmpty"}),n(e.span,{class:"token punctuation",children:"("}),n(e.span,{class:"token string",children:"'The string should contain at least one character.'"}),n(e.span,{class:"token punctuation",children:")"}),`
+`,n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,n(e.h3,{id:"array-schema",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#array-schema",children:n(e.span,{class:"icon icon-link"})}),"Array schema"]}),`
+`,n(e.p,{children:"Schema to validate that an array is non-empty."}),`
+`,n(e.pre,{class:"language-ts",children:n(e.code,{class:"language-ts",children:[n(e.span,{class:"token keyword",children:"const"})," ",n(e.span,{class:"token maybe-class-name",children:"ArraySchema"})," ",n(e.span,{class:"token operator",children:"="})," v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"pipe"}),n(e.span,{class:"token punctuation",children:"("}),`
+  v`,n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"array"}),n(e.span,{class:"token punctuation",children:"("}),"v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"number"}),n(e.span,{class:"token punctuation",children:"("}),n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:","}),`
+  v`,n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"nonEmpty"}),n(e.span,{class:"token punctuation",children:"("}),n(e.span,{class:"token string",children:"'The array should contain at least one item.'"}),n(e.span,{class:"token punctuation",children:")"}),`
+`,n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,n(e.h2,{id:"related",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#related",children:n(e.span,{class:"icon icon-link"})}),"Related"]}),`
+`,n(e.p,{children:["The following APIs can be combined with ",n(e.code,{children:"nonEmpty"}),"."]}),`
+`,n(e.h3,{id:"schemas",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#schemas",children:n(e.span,{class:"icon icon-link"})}),"Schemas"]}),`
+`,n(c,{items:["any","array","custom","instance","string","tuple","unknown"]}),`
+`,n(e.h3,{id:"methods",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#methods",children:n(e.span,{class:"icon icon-link"})}),"Methods"]}),`
+`,n(c,{items:["pipe"]}),`
+`,n(e.h3,{id:"utils",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#utils",children:n(e.span,{class:"icon icon-link"})}),"Utils"]}),`
+`,n(c,{items:["isOfKind","isOfType"]})]})}const b=(t={})=>{const e=i(r,{children:i(d,t,3,null)},3,"CA8mGRz1");return typeof MDXLayout=="function"?n(MDXLayout,{children:e}):e};export{b as default,v as frontmatter,x as head,f as headings};

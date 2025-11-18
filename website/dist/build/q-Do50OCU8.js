@@ -1,0 +1,1 @@
+import{R as l,a as s,o as a}from"./q-dgQLQ9M1.js";const n=()=>l("main",null,{class:"mdx max-w-(--breakpoint-lg) flex w-full flex-1 flex-col self-center py-12 md:py-20 lg:py-32"},s(a,null,3,"HZ_0"),1,"HZ_1");export{n as s_PQyAk5dsTIs};

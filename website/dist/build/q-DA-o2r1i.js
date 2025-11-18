@@ -1,0 +1,1 @@
+import{h as l}from"./q-dgQLQ9M1.js";import{_hW as c}from"./q-dgQLQ9M1.js";const r=({track:e,cleanup:o})=>{const[i,a,t]=l();if(e(t)){const s=setTimeout(()=>{t.value=a},i);o(()=>clearTimeout(s))}};export{c as _hW,r as s_AVI45OyPfa4};

@@ -1,0 +1,10 @@
+import{a as i,s as l,t as e,q as a}from"./q-dgQLQ9M1.js";import{u as o}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as s}from"./q-C3XvAjir.js";const r={TTuple:{modifier:"extends",type:{type:"tuple",items:["unknown",{type:"array",spread:!0,item:"unknown"}]}},LastTupleItem:{type:{type:"custom",name:"TTuple",indexes:[{type:"conditional",conditions:[{type:{type:"custom",name:"TTuple"},extends:{type:"tuple",items:["unknown",{type:"custom",spread:!0,name:"TRest"}]},true:{type:"custom",name:"TRest",indexes:[{type:"string",value:"length"}]}}],false:"never"}]}}},T=[{text:"LastTupleItem",id:"lasttupleitem",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],y={title:"LastTupleItem",meta:[{name:"description",content:"Extracts last tuple item."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},x={title:"LastTupleItem",description:"Extracts last tuple item.",contributors:["fabian-hiller"]};function c(n){const t={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...o(),...n.components};return e(a,{children:[e(t.h1,{id:"lasttupleitem",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#lasttupleitem",children:e(t.span,{class:"icon icon-link"})}),"LastTupleItem"]}),`
+`,e(t.p,{children:"Extracts last tuple item."}),`
+`,e(t.h2,{id:"generics",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(t.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"TTuple"})," ",e(s,{...r.TTuple})]}),`
+`]}),`
+`,e(t.h2,{id:"definition",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(t.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"LastTupleItem"})," ",e(s,{...r.LastTupleItem})]}),`
+`]})]})}const L=(n={})=>{const t=i(l,{children:i(c,n,3,null)},3,"QLBnAC8R");return typeof MDXLayout=="function"?e(MDXLayout,{children:t}):t};export{L as default,x as frontmatter,y as head,T as headings};

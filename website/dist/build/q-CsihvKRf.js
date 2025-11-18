@@ -1,0 +1,1 @@
+import{R as a,a as l,o}from"./q-dgQLQ9M1.js";import{c as r}from"./q-BBrEzD_g.js";const n=s=>a("div",{class:r("flex flex-wrap gap-6 lg:gap-8",s.class)},null,l(o,null,3,"U5_0"),1,"U5_1");export{n as s_N0xr1asCI5M};

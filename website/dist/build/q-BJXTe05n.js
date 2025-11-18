@@ -1,0 +1,12 @@
+import{a as c,s as a,t as e,q as s}from"./q-dgQLQ9M1.js";import{u as r}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const i={TInput:{modifier:"extends",type:"any"},TOutput:{modifier:"extends",type:"any"},TIssue:{modifier:"extends",type:{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}},PipeAction:{type:{type:"union",options:[{type:"custom",name:"BaseValidation",href:"../BaseValidation/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TOutput"},{type:"custom",name:"TIssue"}]},{type:"custom",name:"BaseTransformation",href:"../BaseTransformation/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TOutput"},{type:"custom",name:"TIssue"}]},{type:"custom",name:"BaseMetadata",href:"../BaseMetadata/",generics:[{type:"custom",name:"TInput"}]}]}}},y=[{text:"PipeAction",id:"pipeaction",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],T={title:"PipeAction",meta:[{name:"description",content:"Pipe action interface."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},I={title:"PipeAction",description:"Pipe action interface.",contributors:["fabian-hiller"]};function p(o){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...r(),...o.components};return e(s,{children:[e(n.h1,{id:"pipeaction",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#pipeaction",children:e(n.span,{class:"icon icon-link"})}),"PipeAction"]}),`
+`,e(n.p,{children:"Pipe action interface."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(t,{...i.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TOutput"})," ",e(t,{...i.TOutput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TIssue"})," ",e(t,{...i.TIssue})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"PipeAction"})," ",e(t,{...i.PipeAction})]}),`
+`]})]})}const x=(o={})=>{const n=c(a,{children:c(p,o,3,null)},3,"vy4WtMTz");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{x as default,I as frontmatter,T as head,y as headings};

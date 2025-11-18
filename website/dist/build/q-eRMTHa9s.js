@@ -1,0 +1,1 @@
+import{a,d as t}from"./q-dgQLQ9M1.js";import{G as e,S as l}from"./q-CsEAOIfQ.js";const o=()=>a(l,{label:"Open GitHub repository",type:"link",href:"https://github.com/fabian-hiller/valibot",target:"_blank",children:a(e,{class:"h-full",[t]:{class:t}},3,"z0_0"),[t]:{label:t,type:t,href:t,target:t}},1,"z0_1");export{o as s_sQMUmMQ7adM};

@@ -1,0 +1,19 @@
+import{a as i,s,t as e,q as r}from"./q-dgQLQ9M1.js";import{u as o}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const c={TWrapped:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"BaseSchema",href:"../BaseSchema/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]},{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:["unknown","unknown",{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}]}]}},TDefault:{modifier:"extends",type:{type:"custom",name:"DefaultAsync",href:"../DefaultAsync/",generics:[{type:"custom",name:"TWrapped"},"undefined"]}},BaseSchemaAsync:{type:{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:[{type:"custom",name:"InferInput",href:"../InferInput/",generics:[{type:"custom",name:"TWrapped"}]},{type:"custom",name:"InferOutput",href:"../InferOutput/",generics:[{type:"custom",name:"TWrapped"}]},{type:"custom",name:"InferIssue",href:"../InferIssue/",generics:[{type:"custom",name:"TWrapped"}]}]}},type:{type:{type:"string",value:"exact_optional"}},reference:{type:{type:"union",options:[{type:"custom",modifier:"typeof",name:"exactOptional",href:"../exactOptional/"},{type:"custom",modifier:"typeof",name:"exactOptionalAsync",href:"../exactOptionalAsync/"}]}},expects:{type:{type:"template",parts:[{type:"string",value:"("},{type:"custom",name:"TWrapped",indexes:[{type:"string",value:"expects"}]},{type:"string",value:" | undefined)"}]}},wrapped:{type:{type:"custom",name:"TWrapped"}},default:{type:{type:"custom",name:"TDefault"}}},f=[{text:"ExactOptionalSchemaAsync",id:"exactoptionalschemaasync",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],x={title:"ExactOptionalSchemaAsync",meta:[{name:"description",content:"Exact optional schema async interface."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},g={title:"ExactOptionalSchemaAsync",description:"Exact optional schema async interface.",contributors:["fabian-hiller"]};function p(a){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...o(),...a.components};return e(r,{children:[e(n.h1,{id:"exactoptionalschemaasync",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#exactoptionalschemaasync",children:e(n.span,{class:"icon icon-link"})}),"ExactOptionalSchemaAsync"]}),`
+`,e(n.p,{children:"Exact optional schema async interface."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TWrapped"})," ",e(t,{...c.TWrapped})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TDefault"})," ",e(t,{...c.TDefault})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"ExactOptionalSchemaAsync"})," ",e(t,{...c.BaseSchemaAsync}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"type"})," ",e(t,{...c.type})]}),`
+`,e(n.li,{children:[e(n.code,{children:"reference"})," ",e(t,{...c.reference})]}),`
+`,e(n.li,{children:[e(n.code,{children:"expects"})," ",e(t,{...c.expects})]}),`
+`,e(n.li,{children:[e(n.code,{children:"wrapped"})," ",e(t,{...c.wrapped})]}),`
+`,e(n.li,{children:[e(n.code,{children:"default"})," ",e(t,{...c.default})]}),`
+`]}),`
+`]}),`
+`]})]})}const A=(a={})=>{const n=i(s,{children:i(p,a,3,null)},3,"VGpiW8Ff");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{A as default,g as frontmatter,x as head,f as headings};

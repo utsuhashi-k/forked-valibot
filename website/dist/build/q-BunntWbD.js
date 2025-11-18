@@ -1,0 +1,12 @@
+import{a as r,s as o,t as e,q as s}from"./q-dgQLQ9M1.js";import{u as c}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as i}from"./q-C3XvAjir.js";const t={TInput:{modifier:"extends",type:"any",default:"any"},TOutput:{modifier:"extends",type:"any",default:{type:"custom",name:"TInput"}},TIssue:{modifier:"extends",type:{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]},default:{type:"custom",name:"BaseIssue",generics:["unknown"]}},BaseValidation:{modifier:"extends",type:{type:"custom",name:"BaseValidation",href:"../BaseValidation/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TOutput"},{type:"custom",name:"TIssue"}]}}},y=[{text:"GenericValidation",id:"genericvalidation",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],x={title:"GenericValidation",meta:[{name:"description",content:"Generic validation type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},T={title:"GenericValidation",description:"Generic validation type.",contributors:["fabian-hiller"]};function d(a){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...c(),...a.components};return e(s,{children:[e(n.h1,{id:"genericvalidation",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#genericvalidation",children:e(n.span,{class:"icon icon-link"})}),"GenericValidation"]}),`
+`,e(n.p,{children:"Generic validation type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(i,{...t.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TOutput"})," ",e(i,{...t.TOutput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TIssue"})," ",e(i,{...t.TIssue})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"GenericValidation"})," ",e(i,{...t.BaseValidation})]}),`
+`]})]})}const I=(a={})=>{const n=r(o,{children:r(d,a,3,null)},3,"l74FiEEp");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{I as default,T as frontmatter,x as head,y as headings};

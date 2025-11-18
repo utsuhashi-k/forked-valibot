@@ -1,0 +1,12 @@
+import{a as o,s,t as n,q as a}from"./q-dgQLQ9M1.js";import{u as c}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const i={TInput:{modifier:"extends",type:"any",default:"any"},TOutput:{modifier:"extends",type:"any",default:{type:"custom",name:"TInput"}},TIssue:{modifier:"extends",type:{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]},default:{type:"custom",name:"BaseIssue",generics:["unknown"]}},BaseTransformation:{modifier:"extends",type:{type:"custom",name:"BaseTransformation",href:"../BaseTransformation/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TOutput"},{type:"custom",name:"TIssue"}]}}},y=[{text:"GenericTransformation",id:"generictransformation",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],T={title:"GenericTransformation",meta:[{name:"description",content:"Generic transformation type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},x={title:"GenericTransformation",description:"Generic transformation type.",contributors:["fabian-hiller"]};function d(r){const e={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...c(),...r.components};return n(a,{children:[n(e.h1,{id:"generictransformation",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#generictransformation",children:n(e.span,{class:"icon icon-link"})}),"GenericTransformation"]}),`
+`,n(e.p,{children:"Generic transformation type."}),`
+`,n(e.h2,{id:"generics",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:n(e.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"TInput"})," ",n(t,{...i.TInput})]}),`
+`,n(e.li,{children:[n(e.code,{children:"TOutput"})," ",n(t,{...i.TOutput})]}),`
+`,n(e.li,{children:[n(e.code,{children:"TIssue"})," ",n(t,{...i.TIssue})]}),`
+`]}),`
+`,n(e.h2,{id:"definition",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:n(e.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"GenericTransformation"})," ",n(t,{...i.BaseTransformation})]}),`
+`]})]})}const I=(r={})=>{const e=o(s,{children:o(d,r,3,null)},3,"Kkhd0QpP");return typeof MDXLayout=="function"?n(MDXLayout,{children:e}):e};export{I as default,x as frontmatter,T as head,y as headings};

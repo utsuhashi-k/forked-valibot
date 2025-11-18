@@ -1,0 +1,12 @@
+import{a as s,s as r,t as e,q as a}from"./q-dgQLQ9M1.js";import{u as o}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as i}from"./q-C3XvAjir.js";const t={TInput:{modifier:"extends",type:"any",default:"unknown"},TOutput:{modifier:"extends",type:"any",default:{type:"custom",name:"TInput"}},TIssue:{modifier:"extends",type:{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]},default:{type:"custom",name:"BaseIssue",generics:["unknown"]}},BaseSchemaAsync:{type:{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TOutput"},{type:"custom",name:"TIssue"}]}}},f=[{text:"GenericSchemaAsync",id:"genericschemaasync",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],T={title:"GenericSchemaAsync",meta:[{name:"description",content:"Generic schema async type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},x={title:"GenericSchemaAsync",description:"Generic schema async type.",contributors:["fabian-hiller"]};function d(c){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...o(),...c.components};return e(a,{children:[e(n.h1,{id:"genericschemaasync",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#genericschemaasync",children:e(n.span,{class:"icon icon-link"})}),"GenericSchemaAsync"]}),`
+`,e(n.p,{children:"Generic schema async type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(i,{...t.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TOutput"})," ",e(i,{...t.TOutput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TIssue"})," ",e(i,{...t.TIssue})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"GenericSchemaAsync"})," ",e(i,{...t.BaseSchemaAsync})]}),`
+`]})]})}const I=(c={})=>{const n=s(r,{children:s(d,c,3,null)},3,"P07BQ1jt");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{I as default,x as frontmatter,T as head,f as headings};

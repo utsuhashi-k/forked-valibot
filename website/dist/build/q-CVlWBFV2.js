@@ -1,0 +1,10 @@
+import{a as t,s as r,t as n,q as d}from"./q-dgQLQ9M1.js";import{u as s}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as l}from"./q-C3XvAjir.js";const o={TValue:{modifier:"extends",type:"any"},NonNullish:{type:{type:"conditional",conditions:[{type:{type:"custom",name:"TValue"},extends:{type:"union",options:["null","undefined"]},true:"never"}],false:{type:"custom",name:"TValue"}}}},y=[{text:"NonNullish",id:"nonnullish",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],x={title:"NonNullish",meta:[{name:"description",content:"Extracts `null` and `undefined` from a type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},N={title:"NonNullish",description:"Extracts `null` and `undefined` from a type.",contributors:["fabian-hiller"]};function c(i){const e={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...s(),...i.components};return n(d,{children:[n(e.h1,{id:"nonnullish",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#nonnullish",children:n(e.span,{class:"icon icon-link"})}),"NonNullish"]}),`
+`,n(e.p,{children:["Extracts ",n(e.code,{children:"null"})," and ",n(e.code,{children:"undefined"})," from a type."]}),`
+`,n(e.h2,{id:"generics",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:n(e.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"TValue"})," ",n(l,{...o.TValue})]}),`
+`]}),`
+`,n(e.h2,{id:"definition",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:n(e.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"NonNullish"})," ",n(l,{...o.NonNullish})]}),`
+`]})]})}const b=(i={})=>{const e=t(r,{children:t(c,i,3,null)},3,"UcpHUKrS");return typeof MDXLayout=="function"?n(MDXLayout,{children:e}):e};export{b as default,N as frontmatter,x as head,y as headings};

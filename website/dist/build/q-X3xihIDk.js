@@ -1,0 +1,33 @@
+import{a as c,s as l,t as e,q as r}from"./q-dgQLQ9M1.js";import{u as d}from"./q-CyNgVds-.js";import{a as t}from"./q-B70ZX59b.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as i}from"./q-C3XvAjir.js";const s={TInput:{modifier:"extends",type:"string"},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"UlidIssue",href:"../UlidIssue/",generics:[{type:"custom",name:"TInput"}]}]},"undefined"]}},message:{type:{type:"custom",name:"TMessage"}},Action:{type:{type:"custom",name:"UlidAction",href:"../UlidAction/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TMessage"}]}}},x=[{text:"ulid",id:"ulid",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Explanation",id:"explanation",level:3},{text:"Returns",id:"returns",level:2},{text:"Examples",id:"examples",level:2},{text:"ULID schema",id:"ulid-schema",level:3},{text:"Related",id:"related",level:2},{text:"Schemas",id:"schemas",level:3},{text:"Methods",id:"methods",level:3},{text:"Utils",id:"utils",level:3}],y={title:"ulid",meta:[{name:"description",content:"Creates an ULID validation action."}],styles:[],links:[],scripts:[],frontmatter:{source:"/actions/ulid/ulid.ts",contributors:["fabian-hiller","jmcdo29"]}},b={title:"ulid",description:"Creates an ULID validation action.",source:"/actions/ulid/ulid.ts",contributors:["fabian-hiller","jmcdo29"]};function o(a){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...d(),...a.components};return e(r,{children:[e(n.h1,{id:"ulid",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#ulid",children:e(n.span,{class:"icon icon-link"})}),"ulid"]}),`
+`,e(n.p,{children:["Creates an ",e(n.a,{href:"https://github.com/ulid/spec",rel:"noreferrer",target:"_blank",children:"ULID"})," validation action."]}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"Action"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token generic-function",children:[e(n.span,{class:"token function",children:"ulid"}),e(n.span,{class:"token generic class-name",children:[e(n.span,{class:"token operator",children:"<"}),e(n.span,{class:"token maybe-class-name",children:"TInput"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token maybe-class-name",children:"TMessage"}),e(n.span,{class:"token operator",children:">"})]})]}),e(n.span,{class:"token punctuation",children:"("}),"message",e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(i,{...s.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TMessage"})," ",e(i,{...s.TMessage})]}),`
+`]}),`
+`,e(n.h2,{id:"parameters",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:e(n.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"message"})," ",e(i,{...s.message})]}),`
+`]}),`
+`,e(n.h3,{id:"explanation",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#explanation",children:e(n.span,{class:"icon icon-link"})}),"Explanation"]}),`
+`,e(n.p,{children:["With ",e(n.code,{children:"ulid"})," you can validate the formatting of a string. If the input is not an ULID, you can use ",e(n.code,{children:"message"})," to customize the error message."]}),`
+`,e(n.h2,{id:"returns",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:e(n.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"Action"})," ",e(i,{...s.Action})]}),`
+`]}),`
+`,e(n.h2,{id:"examples",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#examples",children:e(n.span,{class:"icon icon-link"})}),"Examples"]}),`
+`,e(n.p,{children:["The following examples show how ",e(n.code,{children:"ulid"})," can be used."]}),`
+`,e(n.h3,{id:"ulid-schema",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#ulid-schema",children:e(n.span,{class:"icon icon-link"})}),"ULID schema"]}),`
+`,e(n.p,{children:"Schema to validate an ULID."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"UlidSchema"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"pipe"}),e(n.span,{class:"token punctuation",children:"("}),"v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"string"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"ulid"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token string",children:"'The ULID is badly formatted.'"}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"related",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#related",children:e(n.span,{class:"icon icon-link"})}),"Related"]}),`
+`,e(n.p,{children:["The following APIs can be combined with ",e(n.code,{children:"ulid"}),"."]}),`
+`,e(n.h3,{id:"schemas",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#schemas",children:e(n.span,{class:"icon icon-link"})}),"Schemas"]}),`
+`,e(t,{items:["any","custom","string"]}),`
+`,e(n.h3,{id:"methods",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#methods",children:e(n.span,{class:"icon icon-link"})}),"Methods"]}),`
+`,e(t,{items:["pipe"]}),`
+`,e(n.h3,{id:"utils",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#utils",children:e(n.span,{class:"icon icon-link"})}),"Utils"]}),`
+`,e(t,{items:["isOfKind","isOfType"]})]})}const v=(a={})=>{const n=c(l,{children:c(o,a,3,null)},3,"rqcEX1BD");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{v as default,b as frontmatter,y as head,x as headings};

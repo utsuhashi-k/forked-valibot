@@ -1,0 +1,12 @@
+import{a as c,s as r,t as e,q as o}from"./q-dgQLQ9M1.js";import{u as p}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const i={TInput:{modifier:"extends",type:"any"},TOutput:{modifier:"extends",type:"any"},TIssue:{modifier:"extends",type:{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}},PipeItemAsync:{type:{type:"union",options:[{type:"custom",name:"BaseSchemaAsync",href:"../BaseSchemaAsync/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TOutput"},{type:"custom",name:"TIssue"}]},{type:"custom",name:"PipeActionAsync",href:"../PipeActionAsync/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TOutput"},{type:"custom",name:"TIssue"}]}]}}},f=[{text:"PipeItemAsync",id:"pipeitemasync",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],I={title:"PipeItemAsync",meta:[{name:"description",content:"Pipe item async  type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},T={title:"PipeItemAsync",description:"Pipe item async  type.",contributors:["fabian-hiller"]};function a(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...p(),...s.components};return e(o,{children:[e(n.h1,{id:"pipeitemasync",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#pipeitemasync",children:e(n.span,{class:"icon icon-link"})}),"PipeItemAsync"]}),`
+`,e(n.p,{children:"Pipe item async type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(t,{...i.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TOutput"})," ",e(t,{...i.TOutput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TIssue"})," ",e(t,{...i.TIssue})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"PipeItemAsync"})," ",e(t,{...i.PipeItemAsync})]}),`
+`]})]})}const A=(s={})=>{const n=c(r,{children:c(a,s,3,null)},3,"FkiItKYr");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{A as default,T as frontmatter,I as head,f as headings};

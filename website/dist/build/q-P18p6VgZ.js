@@ -1,0 +1,10 @@
+import{a as i,s as c,t as e,q as o}from"./q-dgQLQ9M1.js";import{u as a}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as s}from"./q-C3XvAjir.js";const r={TEntries:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ObjectEntries",href:"../ObjectEntries/"},{type:"custom",name:"ObjectEntriesAsync",href:"../ObjectEntriesAsync/"}]}},InferObjectIssue:{type:{type:"custom",name:"InferIssue",href:"../InferIssue/",generics:[{type:"custom",name:"TEntries",indexes:[{type:"custom",modifier:"keyof",name:"TEntries"}]}]}}},b=[{text:"InferObjectIssue",id:"inferobjectissue",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],I={title:"InferObjectIssue",meta:[{name:"description",content:"Infer object issue type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},y={title:"InferObjectIssue",description:"Infer object issue type.",contributors:["fabian-hiller"]};function d(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...a(),...t.components};return e(o,{children:[e(n.h1,{id:"inferobjectissue",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#inferobjectissue",children:e(n.span,{class:"icon icon-link"})}),"InferObjectIssue"]}),`
+`,e(n.p,{children:"Infer object issue type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TEntries"})," ",e(s,{...r.TEntries})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"InferObjectIssue"})," ",e(s,{...r.InferObjectIssue})]}),`
+`]})]})}const j=(t={})=>{const n=i(c,{children:i(d,t,3,null)},3,"z2De6_-5");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{j as default,y as frontmatter,I as head,b as headings};

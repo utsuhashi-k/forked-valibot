@@ -1,0 +1,10 @@
+import{a as i,s as c,t as e,q as s}from"./q-dgQLQ9M1.js";import{u as a}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as r}from"./q-C3XvAjir.js";const o={TInput:{modifier:"extends",type:{type:"custom",name:"ContentInput",href:"../ContentInput/"}},ContentRequirement:{type:{type:"conditional",conditions:[{type:{type:"custom",name:"TInput"},extends:{type:"array",modifier:"readonly",item:"unknown"},true:{type:"custom",name:"TInput",indexes:["number"]}}],false:{type:"custom",name:"TInput"}}}},y=[{text:"ContentRequirement",id:"contentrequirement",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],C={title:"ContentRequirement",meta:[{name:"description",content:"Content requirement type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},q={title:"ContentRequirement",description:"Content requirement type.",contributors:["fabian-hiller"]};function d(t){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...a(),...t.components};return e(s,{children:[e(n.h1,{id:"contentrequirement",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#contentrequirement",children:e(n.span,{class:"icon icon-link"})}),"ContentRequirement"]}),`
+`,e(n.p,{children:"Content requirement type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(r,{...o.TInput})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"ContentRequirement"})," ",e(r,{...o.ContentRequirement})]}),`
+`]})]})}const x=(t={})=>{const n=i(c,{children:i(d,t,3,null)},3,"pjZ9sGI8");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{x as default,q as frontmatter,C as head,y as headings};

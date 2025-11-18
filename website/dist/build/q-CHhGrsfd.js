@@ -1,0 +1,10 @@
+import{a as t,s as o,t as e,q as l}from"./q-dgQLQ9M1.js";import{u as c}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as s}from"./q-C3XvAjir.js";const r={TItems:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"TupleItems",href:"../TupleItems/"},{type:"custom",name:"TupleItemsAsync",href:"../TupleItemsAsync/"}]}},InferTupleIssue:{type:{type:"custom",name:"InferIssue",href:"../InferIssue/",generics:[{type:"custom",name:"TItems",indexes:["number"]}]}}},I=[{text:"InferTupleIssue",id:"infertupleissue",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],y={title:"InferTupleIssue",meta:[{name:"description",content:"Infer tuple issue type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},T={title:"InferTupleIssue",description:"Infer tuple issue type.",contributors:["fabian-hiller"]};function u(i){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...c(),...i.components};return e(l,{children:[e(n.h1,{id:"infertupleissue",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#infertupleissue",children:e(n.span,{class:"icon icon-link"})}),"InferTupleIssue"]}),`
+`,e(n.p,{children:"Infer tuple issue type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TItems"})," ",e(s,{...r.TItems})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"InferTupleIssue"})," ",e(s,{...r.InferTupleIssue})]}),`
+`]})]})}const x=(i={})=>{const n=t(o,{children:t(u,i,3,null)},3,"b13ZiJjt");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{x as default,T as frontmatter,y as head,I as headings};

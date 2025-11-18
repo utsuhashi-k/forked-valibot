@@ -1,0 +1,6 @@
+import{a as i,s as o,t as n,q as r}from"./q-dgQLQ9M1.js";import{u as a}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as s}from"./q-C3XvAjir.js";const c={Path:{type:{type:"array",modifier:"readonly",item:{type:"union",options:["string","number"]}}}},y=[{text:"Path",id:"path",level:1},{text:"Definition",id:"definition",level:2}],P={title:"Path",meta:[{name:"description",content:"Path type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},b={title:"Path",description:"Path type.",contributors:["fabian-hiller"]};function h(e){const t={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...a(),...e.components};return n(r,{children:[n(t.h1,{id:"path",children:[n(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#path",children:n(t.span,{class:"icon icon-link"})}),"Path"]}),`
+`,n(t.p,{children:"Path type."}),`
+`,n(t.h2,{id:"definition",children:[n(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:n(t.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,n(t.ul,{children:[`
+`,n(t.li,{children:[n(t.code,{children:"Path"})," ",n(s,{...c.Path})]}),`
+`]})]})}const x=(e={})=>{const t=i(o,{children:i(h,e,3,null)},3,"Ev9RBPtQ");return typeof MDXLayout=="function"?n(MDXLayout,{children:t}):t};export{x as default,b as frontmatter,P as head,y as headings};

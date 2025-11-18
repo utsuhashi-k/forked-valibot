@@ -1,0 +1,41 @@
+import{a as c,s as r,t as e,q as o}from"./q-dgQLQ9M1.js";import{u as l}from"./q-CyNgVds-.js";import{a}from"./q-B70ZX59b.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as t}from"./q-C3XvAjir.js";const s={TInput:{modifier:"extends",type:{type:"custom",name:"EntriesInput",href:"../EntriesInput/"}},TRequirement:{modifier:"extends",type:"number"},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"NotEntriesIssue",href:"../NotEntriesIssue/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TRequirement"}]}]},"undefined"]}},requirement:{type:{type:"custom",name:"TRequirement"}},message:{type:{type:"custom",name:"TMessage"}},Action:{type:{type:"custom",name:"NotEntriesAction",href:"../NotEntriesAction/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TRequirement"},{type:"custom",name:"TMessage"}]}}},b=[{text:"notEntries",id:"notentries",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Explanation",id:"explanation",level:3},{text:"Returns",id:"returns",level:2},{text:"Examples",id:"examples",level:2},{text:"Not object entries",id:"not-object-entries",level:3},{text:"Related",id:"related",level:2},{text:"Schemas",id:"schemas",level:3},{text:"Methods",id:"methods",level:3},{text:"Utils",id:"utils",level:3}],y={title:"notEntries",meta:[{name:"description",content:"Creates a not entries validation action."}],styles:[],links:[],scripts:[],frontmatter:{source:"/actions/notEntries/notEntries.ts",contributors:["fabian-hiller"]}},g={title:"notEntries",description:"Creates a not entries validation action.",source:"/actions/notEntries/notEntries.ts",contributors:["fabian-hiller"]};function d(i){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...l(),...i.components};return e(o,{children:[e(n.h1,{id:"notentries",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#notentries",children:e(n.span,{class:"icon icon-link"})}),"notEntries"]}),`
+`,e(n.p,{children:"Creates a not entries validation action."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"Action"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token generic-function",children:[e(n.span,{class:"token function",children:"notEntries"}),e(n.span,{class:"token generic class-name",children:[e(n.span,{class:"token operator",children:"<"}),e(n.span,{class:"token maybe-class-name",children:"TInput"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token maybe-class-name",children:"TRequirement"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token maybe-class-name",children:"TMessage"}),e(n.span,{class:"token operator",children:">"})]})]}),e(n.span,{class:"token punctuation",children:"("}),`
+  requirement`,e(n.span,{class:"token punctuation",children:","}),`
+  message
+`,e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(t,{...s.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TRequirement"})," ",e(t,{...s.TRequirement})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TMessage"})," ",e(t,{...s.TMessage})]}),`
+`]}),`
+`,e(n.h2,{id:"parameters",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:e(n.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"requirement"})," ",e(t,{...s.requirement})]}),`
+`,e(n.li,{children:[e(n.code,{children:"message"})," ",e(t,{...s.message})]}),`
+`]}),`
+`,e(n.h3,{id:"explanation",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#explanation",children:e(n.span,{class:"icon icon-link"})}),"Explanation"]}),`
+`,e(n.p,{children:["With ",e(n.code,{children:"notEntries"})," you can validate the number of entries of an object. If the input does not match the ",e(n.code,{children:"requirement"}),", you can use ",e(n.code,{children:"message"})," to customize the error message."]}),`
+`,e(n.h2,{id:"returns",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:e(n.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"Action"})," ",e(t,{...s.Action})]}),`
+`]}),`
+`,e(n.h2,{id:"examples",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#examples",children:e(n.span,{class:"icon icon-link"})}),"Examples"]}),`
+`,e(n.p,{children:["The following examples show how ",e(n.code,{children:"notEntries"})," can be used."]}),`
+`,e(n.h3,{id:"not-object-entries",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#not-object-entries",children:e(n.span,{class:"icon icon-link"})}),"Not object entries"]}),`
+`,e(n.p,{children:"Schema to validate an object that does not have 5 entries."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"NotEntriesSchema"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"pipe"}),e(n.span,{class:"token punctuation",children:"("}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"record"}),e(n.span,{class:"token punctuation",children:"("}),"v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"string"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"number"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"notEntries"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token number",children:"5"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token string",children:"'Object must not have 5 entries'"}),e(n.span,{class:"token punctuation",children:")"}),`
+`,e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"related",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#related",children:e(n.span,{class:"icon icon-link"})}),"Related"]}),`
+`,e(n.p,{children:["The following APIs can be combined with ",e(n.code,{children:"notEntries"}),"."]}),`
+`,e(n.h3,{id:"schemas",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#schemas",children:e(n.span,{class:"icon icon-link"})}),"Schemas"]}),`
+`,e(a,{items:["looseObject","object","objectWithRest","record","strictObject","variant"]}),`
+`,e(n.h3,{id:"methods",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#methods",children:e(n.span,{class:"icon icon-link"})}),"Methods"]}),`
+`,e(a,{items:["pipe"]}),`
+`,e(n.h3,{id:"utils",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#utils",children:e(n.span,{class:"icon icon-link"})}),"Utils"]}),`
+`,e(a,{items:["isOfKind","isOfType"]})]})}const E=(i={})=>{const n=c(r,{children:c(d,i,3,null)},3,"xols5LMR");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{E as default,g as frontmatter,y as head,b as headings};

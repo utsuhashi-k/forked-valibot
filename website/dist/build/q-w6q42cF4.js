@@ -1,0 +1,11 @@
+import{a as s,s as r,t as e,q as c}from"./q-dgQLQ9M1.js";import{u as o}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as i}from"./q-C3XvAjir.js";const a={TValue:{modifier:"extends",type:"any"},TIssue:{modifier:"extends",type:{type:"custom",name:"BaseIssue",href:"../BaseIssue/",generics:["unknown"]}},OutputDataset:{type:{type:"union",options:[{type:"custom",name:"SuccessDataset",href:"../SuccessDataset/",generics:[{type:"custom",name:"TValue"}]},{type:"custom",name:"PartialDataset",href:"../PartialDataset/",generics:[{type:"custom",name:"TValue"},{type:"custom",name:"TIssue"}]},{type:"custom",name:"FailureDataset",href:"../FailureDataset/",generics:[{type:"custom",name:"TIssue"}]}]}}},D=[{text:"OutputDataset",id:"outputdataset",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],y={title:"OutputDataset",meta:[{name:"description",content:"Output dataset interface."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},x={title:"OutputDataset",description:"Output dataset interface.",contributors:["fabian-hiller"]};function u(n){const t={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...o(),...n.components};return e(c,{children:[e(t.h1,{id:"outputdataset",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#outputdataset",children:e(t.span,{class:"icon icon-link"})}),"OutputDataset"]}),`
+`,e(t.p,{children:"Output dataset interface."}),`
+`,e(t.h2,{id:"generics",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(t.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"TValue"})," ",e(i,{...a.TValue})]}),`
+`,e(t.li,{children:[e(t.code,{children:"TIssue"})," ",e(i,{...a.TIssue})]}),`
+`]}),`
+`,e(t.h2,{id:"definition",children:[e(t.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(t.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(t.ul,{children:[`
+`,e(t.li,{children:[e(t.code,{children:"OutputDataset"})," ",e(i,{...a.OutputDataset})]}),`
+`]})]})}const O=(n={})=>{const t=s(r,{children:s(u,n,3,null)},3,"4Pm_4Vx7");return typeof MDXLayout=="function"?e(MDXLayout,{children:t}):t};export{O as default,x as frontmatter,y as head,D as headings};

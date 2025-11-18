@@ -1,0 +1,10 @@
+import{a as t,s as o,t as e,q as c}from"./q-dgQLQ9M1.js";import{u as s}from"./q-CyNgVds-.js";import"./q-JtBsCz9c.js";import"./q-CWbD2QRg.js";import"./q-B_zTzlEV.js";import{P as i}from"./q-C3XvAjir.js";const a={TInput:{modifier:"extends",type:{type:"custom",name:"ArrayInput",href:"../ArrayInput/"}},ArrayRequirement:{type:{type:"function",params:[{name:"item",type:{type:"custom",name:"TInput",indexes:["number"]}},{name:"index",type:"number"},{name:"array",type:{type:"custom",name:"TInput"}}],return:"boolean"}}},f=[{text:"ArrayRequirement",id:"arrayrequirement",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],q={title:"ArrayRequirement",meta:[{name:"description",content:"Array requirement type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},A={title:"ArrayRequirement",description:"Array requirement type.",contributors:["fabian-hiller"]};function d(r){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...s(),...r.components};return e(c,{children:[e(n.h1,{id:"arrayrequirement",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#arrayrequirement",children:e(n.span,{class:"icon icon-link"})}),"ArrayRequirement"]}),`
+`,e(n.p,{children:"Array requirement type."}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(i,{...a.TInput})]}),`
+`]}),`
+`,e(n.h2,{id:"definition",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:e(n.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"ArrayRequirement"})," ",e(i,{...a.ArrayRequirement})]}),`
+`]})]})}const x=(r={})=>{const n=t(o,{children:t(d,r,3,null)},3,"Fkil2Zcq");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{x as default,A as frontmatter,q as head,f as headings};
