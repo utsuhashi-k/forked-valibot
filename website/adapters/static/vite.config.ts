@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: 'https://utsuhashi-k.github.io/forked-valibot',
+        origin: 'https://valibot-fast-docs.netlify.app',
       }),
     ],
   };
