@@ -1,6 +1,6 @@
-pre-commit:
+pre-push:
   # run sequentially: build website, then stage the generated files so
-  # they are included in the user's commit
+  # they are included in the user's push
   parallel: false
   commands:
     website-build:
@@ -8,3 +8,6 @@ pre-commit:
     add-website-dist:
       run: |
         git add website/dist || true
+        if ! git diff --cached --quiet -- website/dist; then
+          git commit -m "chore(website): update built files" || true
+        fi
