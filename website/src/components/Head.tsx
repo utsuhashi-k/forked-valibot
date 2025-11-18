@@ -14,7 +14,9 @@ export const Head = component$(() => {
   // Compute document title
   const documentTitle = useComputed$(() =>
     // eslint-disable-next-line qwik/valid-lexical-scope
-    location.url.pathname === '/' ? head.title : `${head.title} | Valibot`
+    location.url.pathname === '/'
+      ? head.title
+      : `${head.title} | Valibot(fast docs)`
   );
 
   // Compute theme color code
@@ -65,6 +67,7 @@ export const Head = component$(() => {
       {/* Default metadata */}
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="robots" content="noindex, nofollow" />
       <meta name="theme-color" content={themeColor.value} />
       <link rel="canonical" href={location.url.href} />
       <link rel="manifest" href="/manifest.json" />
