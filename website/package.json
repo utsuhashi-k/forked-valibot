@@ -12,7 +12,7 @@
   "type": "module",
   "scripts": {
     "build": "qwik build",
-    "build.client": "vite build",
+    "build.client": "NODE_OPTIONS='--max-old-space-size=4096' vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "qwik check-client src dist && vite build -c adapters/static/vite.config.ts",
     "build.static": "pnpm --filter valibot run build && pnpm --filter zod-to-valibot run build && pnpm --filter @valibot/to-json-schema run build && pnpm run build.client && pnpm run build.server",
