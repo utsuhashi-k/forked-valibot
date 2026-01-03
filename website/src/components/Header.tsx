@@ -107,6 +107,16 @@ export const Header = component$<HeaderProps>(({ searchOpen }) => {
                 Valibot
               </span>
             </div>
+
+            <div
+              style={{ fontSize: '36px' }}
+              title={[
+                `Updated: ${process.env.MY_UPDATED}`,
+                `Valibot Version: ${process.env.MY_VERSION}`,
+              ].join('\n')}
+            >
+              ℹ️
+            </div>
           </Link>
         </div>
 

@@ -6,6 +6,11 @@ import rehypeExternalLinks from 'rehype-external-links';
 import { defineConfig } from 'vite';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import tsconfigPaths from 'vite-tsconfig-paths';
+import valibotPackageJson from '../library/package.json';
+
+function withQuote(value: unknown): string {
+  return `"${value}"`;
+}
 
 export default defineConfig(({ isSsrBuild }) => {
   return {
@@ -34,6 +39,10 @@ export default defineConfig(({ isSsrBuild }) => {
       headers: {
         'Cache-Control': 'public, max-age=600',
       },
+    },
+    define: {
+      'process.env.MY_UPDATED': withQuote(new Date().toISOString()),
+      'process.env.MY_VERSION': withQuote(valibotPackageJson.version),
     },
   };
 });
