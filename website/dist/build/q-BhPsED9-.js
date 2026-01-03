@@ -1,0 +1,1 @@
+import{h as l}from"./q-BMflDIby.js";import{_hW as c}from"./q-BMflDIby.js";const r=({track:e,cleanup:o})=>{const[i,a,t]=l();if(e(t)){const s=setTimeout(()=>{t.value=a},i);o(()=>clearTimeout(s))}};export{c as _hW,r as s_AVI45OyPfa4};
