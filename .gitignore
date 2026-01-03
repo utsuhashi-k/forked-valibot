@@ -6,6 +6,10 @@ dist
 build
 server
 
+# Keep website/dist in the repo (we build it on pre-commit)
+!/website/dist
+!/website/dist/**
+
 # Tests
 coverage
 
