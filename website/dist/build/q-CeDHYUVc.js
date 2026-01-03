@@ -1,0 +1,33 @@
+import{a as c,s as r,t as n,q as o}from"./q-BMflDIby.js";import{u as l}from"./q-BvIa5wyO.js";import{a}from"./q-DW55uFL8.js";import"./q-BNycJR7_.js";import"./q-DpopbfXP.js";import"./q-B17lXceh.js";import{P as t}from"./q-B9EJ-z4P.js";const s={TInput:{modifier:"extends",type:"any"},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"ToStringIssue",href:"../ToStringIssue/",generics:[{type:"custom",name:"TInput"}]}]},"undefined"]}},message:{type:{type:"custom",name:"TMessage"}},Action:{type:{type:"custom",name:"ToStringAction",href:"../ToStringAction/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TMessage"}]}}},x=[{text:"toString",id:"tostring",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Explanation",id:"explanation",level:3},{text:"Returns",id:"returns",level:2},{text:"Examples",id:"examples",level:2},{text:"String schema",id:"string-schema",level:3},{text:"Related",id:"related",level:2},{text:"Schemas",id:"schemas",level:3},{text:"Methods",id:"methods",level:3},{text:"Utils",id:"utils",level:3}],y={title:"toString",meta:[{name:"description",content:"Creates a to string transformation action."}],styles:[],links:[],scripts:[],frontmatter:{source:"/actions/toString/toString.ts",contributors:["EskiMojo14"]}},b={title:"toString",description:"Creates a to string transformation action.",source:"/actions/toString/toString.ts",contributors:["EskiMojo14"]};function d(i){const e={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...l(),...i.components};return n(o,{children:[n(e.h1,{id:"tostring",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#tostring",children:n(e.span,{class:"icon icon-link"})}),"toString"]}),`
+`,n(e.p,{children:"Creates a to string transformation action."}),`
+`,n(e.pre,{class:"language-ts",children:n(e.code,{class:"language-ts",children:[n(e.span,{class:"token keyword",children:"const"})," ",n(e.span,{class:"token maybe-class-name",children:"Action"})," ",n(e.span,{class:"token operator",children:"="})," v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token generic-function",children:[n(e.span,{class:"token function",children:"toString"}),n(e.span,{class:"token generic class-name",children:[n(e.span,{class:"token operator",children:"<"}),n(e.span,{class:"token maybe-class-name",children:"TInput"}),n(e.span,{class:"token punctuation",children:","})," ",n(e.span,{class:"token maybe-class-name",children:"TMessage"}),n(e.span,{class:"token operator",children:">"})]})]}),n(e.span,{class:"token punctuation",children:"("}),"message",n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,n(e.h2,{id:"generics",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:n(e.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"TInput"})," ",n(t,{...s.TInput})]}),`
+`,n(e.li,{children:[n(e.code,{children:"TMessage"})," ",n(t,{...s.TMessage})]}),`
+`]}),`
+`,n(e.h2,{id:"parameters",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:n(e.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"message"})," ",n(t,{...s.message})]}),`
+`]}),`
+`,n(e.h3,{id:"explanation",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#explanation",children:n(e.span,{class:"icon icon-link"})}),"Explanation"]}),`
+`,n(e.p,{children:["With ",n(e.code,{children:"toString"})," you can transform the input to a string. If the input cannot be transformed, you can use ",n(e.code,{children:"message"})," to customize the error message."]}),`
+`,n(e.h2,{id:"returns",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:n(e.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"Action"})," ",n(t,{...s.Action})]}),`
+`]}),`
+`,n(e.h2,{id:"examples",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#examples",children:n(e.span,{class:"icon icon-link"})}),"Examples"]}),`
+`,n(e.p,{children:["The following examples show how ",n(e.code,{children:"toString"})," can be used."]}),`
+`,n(e.h3,{id:"string-schema",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#string-schema",children:n(e.span,{class:"icon icon-link"})}),"String schema"]}),`
+`,n(e.p,{children:"Schema to validate a number and transform it to a string."}),`
+`,n(e.pre,{class:"language-ts",children:n(e.code,{class:"language-ts",children:[n(e.span,{class:"token keyword",children:"const"})," ",n(e.span,{class:"token maybe-class-name",children:"StringSchema"})," ",n(e.span,{class:"token operator",children:"="})," v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"pipe"}),n(e.span,{class:"token punctuation",children:"("}),"v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"number"}),n(e.span,{class:"token punctuation",children:"("}),n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:","})," v",n(e.span,{class:"token punctuation",children:"."}),n(e.span,{class:"token method function property-access",children:"toString"}),n(e.span,{class:"token punctuation",children:"("}),n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:")"}),n(e.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,n(e.h2,{id:"related",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#related",children:n(e.span,{class:"icon icon-link"})}),"Related"]}),`
+`,n(e.p,{children:["The following APIs can be combined with ",n(e.code,{children:"toString"}),"."]}),`
+`,n(e.h3,{id:"schemas",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#schemas",children:n(e.span,{class:"icon icon-link"})}),"Schemas"]}),`
+`,n(a,{items:["any","bigint","boolean","custom","date","null","number","symbol","undefined","unknown"]}),`
+`,n(e.h3,{id:"methods",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#methods",children:n(e.span,{class:"icon icon-link"})}),"Methods"]}),`
+`,n(a,{items:["pipe"]}),`
+`,n(e.h3,{id:"utils",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#utils",children:n(e.span,{class:"icon icon-link"})}),"Utils"]}),`
+`,n(a,{items:["isOfKind","isOfType"]})]})}const S=(i={})=>{const e=c(r,{children:c(d,i,3,null)},3,"CLLK-TAy");return typeof MDXLayout=="function"?n(MDXLayout,{children:e}):e};export{S as default,b as frontmatter,y as head,x as headings};

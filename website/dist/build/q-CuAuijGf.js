@@ -1,1 +1,0 @@
-import{O as a}from"./q-93ApktwY.js";import{a as t,E as f,d as n,o as c}from"./q-BMflDIby.js";const o=e=>t(a,{...e,get prefetch(){return e.prefetch??!1},children:t(c,null,3,"wm_0"),[n]:{prefetch:f(r=>r.prefetch??!1,[e])}},0,"wm_1");export{o as s_AZF1uqpbtHw};
