@@ -109,8 +109,10 @@ export const Header = component$<HeaderProps>(({ searchOpen }) => {
             </div>
 
             <div
-              style={{ fontSize: '36px' }}
+              style={{ fontSize: "20px", marginLeft: "8px" }}
               title={[
+                "This docs is community build for fast load.",
+                "",
                 `Updated: ${process.env.MY_UPDATED}`,
                 `Valibot Version: ${process.env.MY_VERSION}`,
               ].join('\n')}
