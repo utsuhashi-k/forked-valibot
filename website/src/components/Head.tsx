@@ -33,7 +33,6 @@ export const Head = component$(() => {
 
   // Compute description from metadata
   const description = useComputed$(
-    // eslint-disable-next-line qwik/valid-lexical-scope
     () => head.meta.find((item) => item.name === 'description')?.content
   );
 
@@ -44,7 +43,6 @@ export const Head = component$(() => {
 
     // Add title and path to URL
     if (location.url.pathname !== '/') {
-      // eslint-disable-next-line qwik/valid-lexical-scope
       imageUrl += `?title=${encodeURIComponent(head.title)}&path=${
         location.url.pathname.split('/')[1]
       }`;

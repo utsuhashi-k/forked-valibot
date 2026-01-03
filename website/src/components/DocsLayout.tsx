@@ -138,7 +138,7 @@ export const DocsLayout = component$(() => {
             <IconButton
               variant="secondary"
               type="link"
-              href={`https://github.com/fabian-hiller/valibot/blob/main/website/src/routes${currentPage.value.href.replace(
+              href={`https://github.com/open-circle/valibot/blob/main/website/src/routes${currentPage.value.href.replace(
                 /^(\/.+)\/(.+\/)$/,
                 `$1/(${currentPage.value.group
                   .toLowerCase()
@@ -247,7 +247,7 @@ export const NavButtons = component$<NavButtonsProps>(
         <IconButton
           variant="secondary"
           type="link"
-          href={`https://github.com/fabian-hiller/valibot/blob/main/library/src${sourcePath}`}
+          href={`https://github.com/open-circle/valibot/blob/main/library/src${sourcePath}`}
           target="_blank"
           label="Source code"
           hideLabel
