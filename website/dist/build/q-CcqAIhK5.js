@@ -1,0 +1,1 @@
+import{a as e,d as t}from"./q-BMflDIby.js";import{G as a,S as s}from"./q-Bs2vm1oD.js";const r=()=>e(s,{label:"Open GitHub repository",type:"link",href:"https://github.com/open-circle/valibot",target:"_blank",children:e(a,{class:"h-full",[t]:{class:t}},3,"z0_0"),[t]:{label:t,type:t,href:t,target:t}},1,"z0_1");export{r as s_sQMUmMQ7adM};

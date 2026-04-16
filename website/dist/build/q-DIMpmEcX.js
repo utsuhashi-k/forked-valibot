@@ -1,0 +1,10 @@
+import{a as i,s as a,t as n,q as o}from"./q-BMflDIby.js";import{u as d}from"./q-CZGIs_GZ.js";import"./q-DwIzz6cx.js";import"./q-LWtkDvt5.js";import"./q-B9m2l2gT.js";import{P as t}from"./q-BhWdqYRm.js";const s={TInput:{modifier:"extends",type:"any"},RawTransformAddIssue:{type:{type:"function",params:[{name:"info",optional:!0,type:{type:"custom",name:"RawTransformIssueInfo",href:"../RawTransformIssueInfo/",generics:[{type:"custom",name:"TInput"}]}}],return:"void"}}},w=[{text:"RawTransformAddIssue",id:"rawtransformaddissue",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],y={title:"RawTransformAddIssue",meta:[{name:"description",content:"Raw transform add issue type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},I={title:"RawTransformAddIssue",description:"Raw transform add issue type.",contributors:["fabian-hiller"]};function c(r){const e={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...d(),...r.components};return n(o,{children:[n(e.h1,{id:"rawtransformaddissue",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#rawtransformaddissue",children:n(e.span,{class:"icon icon-link"})}),"RawTransformAddIssue"]}),`
+`,n(e.p,{children:"Raw transform add issue type."}),`
+`,n(e.h2,{id:"generics",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:n(e.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"TInput"})," ",n(t,{...s.TInput})]}),`
+`]}),`
+`,n(e.h2,{id:"definition",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:n(e.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"RawTransformAddIssue"})," ",n(t,{...s.RawTransformAddIssue})]}),`
+`]})]})}const T=(r={})=>{const e=i(a,{children:i(c,r,3,null)},3,"D_54nAmd");return typeof MDXLayout=="function"?n(MDXLayout,{children:e}):e};export{T as default,I as frontmatter,y as head,w as headings};
