@@ -1,0 +1,40 @@
+import{a as i,s as o,t as e,q as r}from"./q-BMflDIby.js";import{u as l}from"./q--oTrDBLb.js";import{a as c}from"./q-8Dh79Z6H.js";import"./q-DibvOihq.js";import"./q-DFFNPBxC.js";import"./q-ZqxkfwjP.js";import{P as s}from"./q-CdVP5qAT.js";const t={TInput:{modifier:"extends",type:"string"},TMessage:{modifier:"extends",type:{type:"union",options:[{type:"custom",name:"ErrorMessage",href:"../ErrorMessage/",generics:[{type:"custom",name:"JwsCompactIssue",href:"../JwsCompactIssue/",generics:[{type:"custom",name:"TInput"}]}]},"undefined"]}},message:{type:{type:"custom",name:"TMessage"}},Action:{type:{type:"custom",name:"JwsCompactAction",href:"../JwsCompactAction/",generics:[{type:"custom",name:"TInput"},{type:"custom",name:"TMessage"}]}}},y=[{text:"jwsCompact",id:"jwscompact",level:1},{text:"Generics",id:"generics",level:2},{text:"Parameters",id:"parameters",level:2},{text:"Explanation",id:"explanation",level:3},{text:"Returns",id:"returns",level:2},{text:"Examples",id:"examples",level:2},{text:"Access token schema",id:"access-token-schema",level:3},{text:"Related",id:"related",level:2},{text:"Schemas",id:"schemas",level:3},{text:"Methods",id:"methods",level:3},{text:"Utils",id:"utils",level:3}],x={title:"jwsCompact",meta:[{name:"description",content:"Creates a validation action for JWS compact strings."}],styles:[],links:[],scripts:[],frontmatter:{source:"/actions/jwsCompact/jwsCompact.ts",contributors:["yslpn"]}},w={title:"jwsCompact",description:"Creates a validation action for JWS compact strings.",source:"/actions/jwsCompact/jwsCompact.ts",contributors:["yslpn"]};function d(a){const n={a:"a",blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",ul:"ul",...l(),...a.components};return e(r,{children:[e(n.h1,{id:"jwscompact",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#jwscompact",children:e(n.span,{class:"icon icon-link"})}),"jwsCompact"]}),`
+`,e(n.p,{children:["Creates a ",e(n.a,{href:"https://datatracker.ietf.org/doc/html/rfc7515#section-3.1",rel:"noreferrer",target:"_blank",children:"JWS compact serialization"})," validation action."]}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"Action"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token generic-function",children:[e(n.span,{class:"token function",children:"jwsCompact"}),e(n.span,{class:"token generic class-name",children:[e(n.span,{class:"token operator",children:"<"}),e(n.span,{class:"token maybe-class-name",children:"TInput"}),e(n.span,{class:"token punctuation",children:","})," ",e(n.span,{class:"token maybe-class-name",children:"TMessage"}),e(n.span,{class:"token operator",children:">"})]})]}),e(n.span,{class:"token punctuation",children:"("}),"message",e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"generics",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:e(n.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"TInput"})," ",e(s,{...t.TInput})]}),`
+`,e(n.li,{children:[e(n.code,{children:"TMessage"})," ",e(s,{...t.TMessage})]}),`
+`]}),`
+`,e(n.h2,{id:"parameters",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#parameters",children:e(n.span,{class:"icon icon-link"})}),"Parameters"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"message"})," ",e(s,{...t.message})]}),`
+`]}),`
+`,e(n.h3,{id:"explanation",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#explanation",children:e(n.span,{class:"icon icon-link"})}),"Explanation"]}),`
+`,e(n.p,{children:["With ",e(n.code,{children:"jwsCompact"})," you can validate that a string matches the three-part compact string shape used by JWS compact serialization with unpadded Base64URL-like segments. If the input does not match this JWS compact string shape, you can use ",e(n.code,{children:"message"})," to customize the error message."]}),`
+`,e(n.blockquote,{children:[`
+`,e(n.p,{children:["Hint: This validation action only checks the three-part compact string shape. It does not decode the segments, verify the signature, or validate claims. Empty payload and signature segments are accepted when they appear as valid compact-serialization segments. If you need full JWT validation, signature verification, or claim checks, use a dedicated library such as one from ",e(n.a,{href:"https://www.jwt.io/libraries",rel:"noreferrer",target:"_blank",children:"jwt.io/libraries"}),"."]}),`
+`]}),`
+`,e(n.h2,{id:"returns",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#returns",children:e(n.span,{class:"icon icon-link"})}),"Returns"]}),`
+`,e(n.ul,{children:[`
+`,e(n.li,{children:[e(n.code,{children:"Action"})," ",e(s,{...t.Action})]}),`
+`]}),`
+`,e(n.h2,{id:"examples",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#examples",children:e(n.span,{class:"icon icon-link"})}),"Examples"]}),`
+`,e(n.p,{children:["The following examples show how ",e(n.code,{children:"jwsCompact"})," can be used."]}),`
+`,e(n.h3,{id:"access-token-schema",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#access-token-schema",children:e(n.span,{class:"icon icon-link"})}),"Access token schema"]}),`
+`,e(n.p,{children:"Schema to validate that an access token string matches the JWS compact string shape."}),`
+`,e(n.pre,{class:"language-ts",children:e(n.code,{class:"language-ts",children:[e(n.span,{class:"token keyword",children:"const"})," ",e(n.span,{class:"token maybe-class-name",children:"AccessTokenSchema"})," ",e(n.span,{class:"token operator",children:"="})," v",e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"pipe"}),e(n.span,{class:"token punctuation",children:"("}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"string"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"nonEmpty"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token string",children:"'Provide an access token.'"}),e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:","}),`
+  v`,e(n.span,{class:"token punctuation",children:"."}),e(n.span,{class:"token method function property-access",children:"jwsCompact"}),e(n.span,{class:"token punctuation",children:"("}),e(n.span,{class:"token string",children:"'The token must be a valid JWS compact string.'"}),e(n.span,{class:"token punctuation",children:")"}),`
+`,e(n.span,{class:"token punctuation",children:")"}),e(n.span,{class:"token punctuation",children:";"}),`
+`]})}),`
+`,e(n.h2,{id:"related",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#related",children:e(n.span,{class:"icon icon-link"})}),"Related"]}),`
+`,e(n.p,{children:["The following APIs can be combined with ",e(n.code,{children:"jwsCompact"}),"."]}),`
+`,e(n.h3,{id:"schemas",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#schemas",children:e(n.span,{class:"icon icon-link"})}),"Schemas"]}),`
+`,e(c,{items:["any","custom","string"]}),`
+`,e(n.h3,{id:"methods",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#methods",children:e(n.span,{class:"icon icon-link"})}),"Methods"]}),`
+`,e(c,{items:["pipe"]}),`
+`,e(n.h3,{id:"utils",children:[e(n.a,{"aria-hidden":"true",tabindex:"-1",href:"#utils",children:e(n.span,{class:"icon icon-link"})}),"Utils"]}),`
+`,e(c,{items:["isOfKind","isOfType"]})]})}const b=(a={})=>{const n=i(o,{children:i(d,a,3,null)},3,"wl8XLxc_");return typeof MDXLayout=="function"?e(MDXLayout,{children:n}):n};export{b as default,w as frontmatter,x as head,y as headings};

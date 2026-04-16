@@ -1,0 +1,1 @@
+import{L as u}from"./q-DWVc9x1E.js";import{A as t,I as e,d as a,a as r,o as l}from"./q-BMflDIby.js";const o=n=>(t(),n.type==="link"?n.target==="_blank"?e("a",{...n,rel:"noreferrer",children:r(l,null,3,"u1_0")},{rel:a},0,"u1_1"):r(u,{...n,children:r(l,null,3,"u1_2")},0,"u1_3"):e("button",{...n,children:r(l,null,3,"u1_4")},null,0,"u1_5"));export{o as s_OnN00nZFNwA};

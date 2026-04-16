@@ -1,0 +1,24 @@
+import{a as i,s as r,t,q as o}from"./q-BMflDIby.js";import{u as l}from"./q--oTrDBLb.js";const d=[{text:"LLMs.txt",id:"llmstxt",level:1},{text:"What is LLMs.txt?",id:"what-is-llmstxt",level:2},{text:"Available routes",id:"available-routes",level:2},{text:"For AI Agents",id:"for-ai-agents",level:2},{text:"How to use it",id:"how-to-use-it",level:2},{text:"Cursor",id:"cursor",level:3}],h={title:"LLMs.txt",meta:[{name:"description",content:"If you are using AI to generate Valibot schemas, you can use our LLMs.txt files to help the AI better understand the library."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller","flySewa"]}},u={title:"LLMs.txt",description:"If you are using AI to generate Valibot schemas, you can use our LLMs.txt files to help the AI better understand the library.",contributors:["fabian-hiller","flySewa"]};function s(n){const e={a:"a",blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",span:"span",ul:"ul",...l(),...n.components};return t(o,{children:[t(e.h1,{id:"llmstxt",children:[t(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#llmstxt",children:t(e.span,{class:"icon icon-link"})}),"LLMs.txt"]}),`
+`,t(e.p,{children:"If you are using AI to generate Valibot schemas, you can use our LLMs.txt files to help the AI better understand the library."}),`
+`,t(e.h2,{id:"what-is-llmstxt",children:[t(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#what-is-llmstxt",children:t(e.span,{class:"icon icon-link"})}),"What is LLMs.txt?"]}),`
+`,t(e.p,{children:["An ",t(e.a,{href:"https://llmstxt.org/",rel:"noreferrer",target:"_blank",children:"LLMs.txt"})," file is a plain text file that provides instructions or metadata for large language models (LLMs). It often specifies how the LLMs should process or interact with content. It is similar to a robots.txt file, but is tailored for AI models."]}),`
+`,t(e.h2,{id:"available-routes",children:[t(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#available-routes",children:t(e.span,{class:"icon icon-link"})}),"Available routes"]}),`
+`,t(e.p,{children:"We provide several LLMs.txt routes. Use the route that works best with your AI tool."}),`
+`,t(e.ul,{children:[`
+`,t(e.li,{children:[t(e.a,{href:"/llms.txt",children:t(e.code,{children:"llms.txt"})})," contains a table of contents with links to Markdown files"]}),`
+`,t(e.li,{children:[t(e.a,{href:"/llms-full.txt",children:t(e.code,{children:"llms-full.txt"})})," contains the Markdown content of the entire docs"]}),`
+`,t(e.li,{children:[t(e.a,{href:"/llms-guides.txt",children:t(e.code,{children:"llms-guides.txt"})})," contains the Markdown content of the guides"]}),`
+`,t(e.li,{children:[t(e.a,{href:"/llms-api.txt",children:t(e.code,{children:"llms-api.txt"})})," contains the Markdown content of the API reference"]}),`
+`]}),`
+`,t(e.blockquote,{children:[`
+`,t(e.p,{children:["We also provide a Markdown version of every documentation page. You can access it by replacing the trailing slash (",t(e.code,{children:"/"}),") in the URL with ",t(e.code,{children:".md"}),". For example, ",t(e.code,{children:"/guides/installation/"})," becomes ",t(e.code,{children:"/guides/installation.md"}),"."]}),`
+`]}),`
+`,t(e.h2,{id:"for-ai-agents",children:[t(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#for-ai-agents",children:t(e.span,{class:"icon icon-link"})}),"For AI Agents"]}),`
+`,t(e.p,{children:["Our ",t(e.a,{href:"https://github.com/open-circle/agent-skills/blob/main/skills/valibot/SKILL.md",rel:"noreferrer",target:"_blank",children:t(e.code,{children:"SKILL.md"})})," contains specialized instructions for AI agents to write, migrate, and optimize Valibot schemas according to the latest best practices."]}),`
+`,t(e.h2,{id:"how-to-use-it",children:[t(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#how-to-use-it",children:t(e.span,{class:"icon icon-link"})}),"How to use it"]}),`
+`,t(e.p,{children:"To help you get started, here are some examples of how the LLMs.txt files can be used with various AI tools."}),`
+`,t(e.blockquote,{children:[`
+`,t(e.p,{children:["Please help us by adding more examples of other AI tools. If you use a tool that supports LLMs.txt files, please ",t(e.a,{href:"https://github.com/open-circle/valibot/pulls",rel:"noreferrer",target:"_blank",children:"open a pull request"})," to add it to this page."]}),`
+`]}),`
+`,t(e.h3,{id:"cursor",children:[t(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#cursor",children:t(e.span,{class:"icon icon-link"})}),"Cursor"]}),`
+`,t(e.p,{children:["You can add a custom documentation as context in Cursor using the ",t(e.code,{children:"@Docs"})," feature. Read more about it ",t(e.a,{href:"https://docs.cursor.com/context/@-symbols/@-docs",rel:"noreferrer",target:"_blank",children:"here"}),"."]})]})}const p=(n={})=>{const e=i(r,{children:i(s,n,3,null)},3,"CfzWpqvV");return typeof MDXLayout=="function"?t(MDXLayout,{children:e}):e};export{p as default,u as frontmatter,h as head,d as headings};

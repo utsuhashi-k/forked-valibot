@@ -1,0 +1,10 @@
+import{a as i,s as a,t as n,q as o}from"./q-BMflDIby.js";import{u as d}from"./q--oTrDBLb.js";import"./q-DibvOihq.js";import"./q-DFFNPBxC.js";import"./q-ZqxkfwjP.js";import{P as r}from"./q-CdVP5qAT.js";const u={TGuard:{modifier:"extends",type:{type:"custom",name:"GuardFunction",href:"../GuardFunction/",generics:["any"]}},InferGuardOutput:{type:{type:"conditional",conditions:[{type:{type:"custom",name:"TGuard"},extends:{type:"function",params:[{name:"input",type:"any"}],return:{type:"predicate",param:"input",is:{type:"custom",modifier:"infer",name:"TOutput"}}},true:{type:"custom",name:"TOutput"}}],false:"unknown"}}},y=[{text:"InferGuardOutput",id:"inferguardoutput",level:1},{text:"Generics",id:"generics",level:2},{text:"Definition",id:"definition",level:2}],G={title:"InferGuardOutput",meta:[{name:"description",content:"Infer guard output type."}],styles:[],links:[],scripts:[],frontmatter:{contributors:["fabian-hiller"]}},g={title:"InferGuardOutput",description:"Infer guard output type.",contributors:["fabian-hiller"]};function c(t){const e={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",span:"span",ul:"ul",...d(),...t.components};return n(o,{children:[n(e.h1,{id:"inferguardoutput",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#inferguardoutput",children:n(e.span,{class:"icon icon-link"})}),"InferGuardOutput"]}),`
+`,n(e.p,{children:"Infer guard output type."}),`
+`,n(e.h2,{id:"generics",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#generics",children:n(e.span,{class:"icon icon-link"})}),"Generics"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"TGuard"})," ",n(r,{...u.TGuard})]}),`
+`]}),`
+`,n(e.h2,{id:"definition",children:[n(e.a,{"aria-hidden":"true",tabindex:"-1",href:"#definition",children:n(e.span,{class:"icon icon-link"})}),"Definition"]}),`
+`,n(e.ul,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"InferGuardOutput"})," ",n(r,{...u.InferGuardOutput})]}),`
+`]})]})}const x=(t={})=>{const e=i(a,{children:i(c,t,3,null)},3,"e79GL39n");return typeof MDXLayout=="function"?n(MDXLayout,{children:e}):e};export{x as default,g as frontmatter,G as head,y as headings};
